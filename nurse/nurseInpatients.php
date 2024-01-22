@@ -8,16 +8,16 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <body>
+
       <div class="container-fluid">
         <div class="row">
           <nav id="sidebar" class="col-lg-1 bg-success sidebar p-0">
             <div class="position-sticky">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                <a class="navbar-brand" href="#">
-      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-      Bootstrap
-    </a>
+                  <a class="" href="#">
+                    HIMS
+                  </a>
                 </li>
                 <li class="nav-item">
                   <a class="" href="#">
@@ -48,63 +48,47 @@
             </div>
           </nav>
 
-          <div class="col-4">
-            <ul class="nav nav-pills mt-5">
+          <!-- <div class="col-1">
+            <button class="btn btn-success" href="">
+              Request Service
+            </button>
+          </div> -->
+
+          <div class="col-10  m-3 mt-5">
+            <button class="btn btn-success float-end">🛎️</button>
+            <button class="btn btn-success float-end me-3">
+             Request Service
+            </button>
+            <ul class="nav nav-pills">
               <li class="nav-item">
                 <a
-                  class="btn btn-light active p-5 bg-success"
+                  class="nav-link active bg-success"
                   aria-current="page"
                   href="#"
                 >
-                  TIME
+                  Inpatient
                 </a>
               </li>
-              <span class="nav-item shadow rounded">
-                <a class="btn btn-light p-5" href="#">
-                  Date
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">
+                  Outpatient
                 </a>
-              </span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">
+                  Archived
+                </a>
+              </li>
             </ul>
-
-            <div class="row">
-              <div class="col-6">
-                <div class="card mt-3">
-                  <div class="card-body">
-                    <h5 class="card-title">100</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">
-                      In Patient
-                    </h6>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-6">
-                <div class="card mt-3">
-                  <div class="card-body">
-                    <h5 class="card-title">20</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">
-                      Outpatient
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-7 mt-2">
-            <button class="btn btn-success float-end">🛎️</button>
-            <button class="btn btn-success float-end me-3">
-              + Add Patient
-            </button>
-
-            <table class="table m-3 mt-5">
+            <table class="table mt-4">
               <thead>
                 <tr>
-                  <th scope="col">ID</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">No. Patients</th>
+                  <th scope="col">Patient ID</th>
+                  <th scope="col">Patient Name</th>
+                  <th scope="col">Specialist</th>
                   <th scope="col">Room Number</th>
-                  <th scope="col">Clinic Hours</th>
+                  <th scope="col">Admission Date</th>
+                  <th scope="col">Status</th>
                 </tr>
               </thead>
               <tbody>
@@ -114,6 +98,7 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -121,6 +106,7 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -128,6 +114,7 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -135,6 +122,7 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -142,6 +130,7 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -149,6 +138,7 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -156,6 +146,7 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -163,12 +154,45 @@
                   <td>xxxxxx xxxxxx</td>
                   <td>xxxxx</td>
                   <td>xx</td>
+                  <td>xxxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">xx</th>
+                  <td>xxxxx</td>
+                  <td>xxxxxx xxxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xx</td>
+                  <td>xxxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">xx</th>
+                  <td>xxxxx</td>
+                  <td>xxxxxx xxxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xx</td>
+                  <td>xxxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">xx</th>
+                  <td>xxxxx</td>
+                  <td>xxxxxx xxxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xx</td>
+                  <td>xxxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">xx</th>
+                  <td>xxxxx</td>
+                  <td>xxxxxx xxxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xx</td>
+                  <td>xxxxxx</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
       </div>
- 
+  
 </body>
 </html>
