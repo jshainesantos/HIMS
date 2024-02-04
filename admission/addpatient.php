@@ -15,8 +15,13 @@
 <body>
   <div class="container-fluid">
     <div class="position-absolute top-0 end-0 mt-3 me-3">
-      <button class="btn btn-success ms-2">+ Add Patient</button>
-      <button class="btn btn-secondary"><span class="material-symbols-outlined">notifications</span></button>
+      <button class="btn btn-light"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20.6286 15.9989C20.5508 15.9052 20.4744 15.8114 20.3994 15.7209C19.3682 14.4736 18.7443 13.7208 18.7443 10.1897C18.7443 8.36156 18.3069 6.86156 17.4449 5.73656C16.8093 4.90547 15.9501 4.275 14.8176 3.80906C14.803 3.80096 14.79 3.79032 14.7791 3.77766C14.3718 2.41359 13.2571 1.5 11.9999 1.5C10.7427 1.5 9.62849 2.41359 9.22115 3.77625C9.21027 3.78845 9.19744 3.79875 9.18318 3.80672C6.54036 4.89469 5.25599 6.98203 5.25599 10.1883C5.25599 13.7208 4.63302 14.4736 3.60083 15.7195C3.52583 15.81 3.44943 15.9019 3.37161 15.9975C3.17061 16.2399 3.04326 16.5348 3.00464 16.8473C2.96601 17.1598 3.01772 17.4769 3.15365 17.7609C3.44286 18.3703 4.05927 18.7486 4.76286 18.7486H19.2421C19.9424 18.7486 20.5546 18.3708 20.8447 17.7642C20.9813 17.4801 21.0335 17.1628 20.9952 16.8499C20.9569 16.537 20.8297 16.2417 20.6286 15.9989ZM11.9999 22.5C12.6773 22.4995 13.3418 22.3156 13.9232 21.9679C14.5045 21.6202 14.9809 21.1217 15.3018 20.5252C15.3169 20.4966 15.3244 20.4646 15.3234 20.4322C15.3225 20.3999 15.3133 20.3684 15.2966 20.3407C15.2799 20.313 15.2563 20.2901 15.2281 20.2742C15.2 20.2583 15.1682 20.25 15.1358 20.25H8.8649C8.83252 20.2499 8.80066 20.2582 8.77243 20.274C8.7442 20.2899 8.72055 20.3128 8.7038 20.3405C8.68704 20.3682 8.67774 20.3997 8.67682 20.4321C8.67588 20.4645 8.68335 20.4965 8.69849 20.5252C9.01936 21.1216 9.49567 21.6201 10.0769 21.9678C10.6581 22.3155 11.3226 22.4994 11.9999 22.5Z"
+            fill="#808080" />
+        </svg>
+      </button>
     </div>
   </div>
 
@@ -26,7 +31,7 @@
         <div class="position-sticky">
           <ul class="nav flex-column">
             <li class="nav-item mt-3">
-              <a class="btn p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
+              <a class="mt-5 btn p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
                 <svg width="65" height="90" viewBox="0 0 65 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M1.58026 84V65.8182H5.42436V73.32H13.228V65.8182H17.0632V84H13.228V76.4893H5.42436V84H1.58026ZM24.0767 65.8182V84H20.2326V65.8182H24.0767ZM27.2394 65.8182H31.9802L36.9873 78.0341H37.2004L42.2075 65.8182H46.9482V84H43.2195V72.1658H43.0686L38.3634 83.9112H35.8243L31.1191 72.1214H30.9681V84H27.2394V65.8182ZM59.9787 71.0472C59.9077 70.3311 59.6029 69.7747 59.0643 69.3782C58.5257 68.9817 57.7947 68.7834 56.8714 68.7834C56.2441 68.7834 55.7144 68.8722 55.2823 69.0497C54.8503 69.2214 54.5188 69.4611 54.288 69.7688C54.0631 70.0766 53.9506 70.4258 53.9506 70.8164C53.9388 71.1419 54.0069 71.426 54.1548 71.6687C54.3087 71.9113 54.5188 72.1214 54.7852 72.299C55.0515 72.4706 55.3593 72.6216 55.7085 72.7518C56.0576 72.8761 56.4305 72.9826 56.8271 73.0714L58.4606 73.462C59.2537 73.6396 59.9817 73.8763 60.6445 74.1722C61.3074 74.4682 61.8815 74.8321 62.3668 75.2642C62.8522 75.6963 63.228 76.2053 63.4943 76.7912C63.7666 77.3771 63.9057 78.0489 63.9116 78.8065C63.9057 79.9192 63.6216 80.8839 63.0593 81.7006C62.503 82.5115 61.698 83.1418 60.6445 83.5916C59.5969 84.0355 58.3333 84.2575 56.8537 84.2575C55.3859 84.2575 54.1075 84.0326 53.0185 83.5827C51.9354 83.1329 51.089 82.4671 50.4794 81.5852C49.8757 80.6974 49.5591 79.5996 49.5295 78.2915H53.2493C53.2907 78.9012 53.4653 79.4102 53.7731 79.8185C54.0868 80.221 54.504 80.5258 55.0249 80.733C55.5516 80.9342 56.1464 81.0348 56.8093 81.0348C57.4603 81.0348 58.0256 80.9401 58.505 80.7507C58.9903 80.5613 59.3661 80.2979 59.6325 79.9606C59.8988 79.6232 60.032 79.2356 60.032 78.7976C60.032 78.3892 59.9106 78.0459 59.668 77.7678C59.4312 77.4896 59.082 77.2528 58.6204 77.0575C58.1647 76.8622 57.6054 76.6847 56.9425 76.5249L54.9627 76.0277C53.4298 75.6548 52.2195 75.0719 51.3317 74.2788C50.4439 73.4857 50.003 72.4174 50.0089 71.0739C50.003 69.973 50.2959 69.0112 50.8878 68.1886C51.4856 67.3659 52.3053 66.7237 53.3469 66.2621C54.3886 65.8004 55.5723 65.5696 56.8981 65.5696C58.2475 65.5696 59.4253 65.8004 60.4315 66.2621C61.4435 66.7237 62.2307 67.3659 62.793 68.1886C63.3552 69.0112 63.6452 69.9641 63.663 71.0472H59.9787Z"
@@ -46,25 +51,19 @@
 
             </li>
             <p>STAFF NAME</p>
-            <li class="nav-item mt-4">
+            <li class="nav-item mt-5">
               <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
                 event_available
               </a>
             </li>
             <p>Admission</p>
-            <li class="nav-item mt-3">
+            <li class="nav-item mt-4">
               <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
                 clinical_notes
               </a>
             </li>
             <p>Patients</p>
-            <li class="nav-item mt-3">
-              <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
-                local_hospital
-              </a>
-              <p>Specialist</p>
-            </li>
-            <li class="nav-item my-5">
+            <li class="nav-item my-5 pt-3">
               <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
                 logout
               </a>
@@ -74,68 +73,12 @@
         </div>
       </nav>
 
+      <div class="col-10 m-3 ms-5 mt-5 pt-4 mx-auto">
 
-      <div class="col-6 mt-5">
-        <h1>Add Patient</h1>
-
-        <div class="row m-4 shadow">
-          <h5>I. Patient Information</h5>
-          <div class="col">
-
-            <h6>First Name</h6>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            <h6>Birth Date</h6>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            <h6>Contact Number</h6>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-          </div>
-          <div class="col">
-            <h6>Last Name</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            <h6>Gender</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            <h6>Address</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-          </div>
-        </div>
-
-        <div class="row m-4 shadow">
-          <h5>II. Person In Charge Information</h5>
-          <div class="col">
-
-            <h6>First Name</h6>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            <h6>Relationship to Patient</h6>
-            <input type="text" class="form-control" placeholder="Relationship" aria-label="First name">
-
-          </div>
-          <div class="col">
-            <h6>Last Name</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            <h6>Contact Number</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-          </div>
-        </div>
-
-        <div class="row m-4 shadow">
-          <h5>III. Admit Person Information</h5>
-          <div class="col">
-
-            <h6>First Name</h6>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            <h6>Contact Number</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-
-          </div>
-          <div class="col">
-            <h6>Last Name</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-          </div>
-        </div>
       </div>
-
-
     </div>
+
+  </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
