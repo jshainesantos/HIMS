@@ -74,7 +74,54 @@
       </nav>
 
       <div class="col-10 m-3 ms-5 mt-5 pt-4 mx-auto">
+        <div class="card">
+          <div class="card-body m-5">
+            <div class="row">
+              <div class="col">
+                <h3>I. Patient Information</h3>
+                <input type="text" class="form-control" placeholder="First name and Last name" aria-label="First name">
+                <input type="text" class="form-control my-3" placeholder="Contact Number" aria-label="First name">
 
+                <h3>II. Person In-charge Information</h3>
+                <input type="text" class="form-control" placeholder="First name and Last name" aria-label="First name">
+                <input type="text" class="form-control my-3" placeholder="Contact Number" aria-label="First name">
+
+                <h3>III. Admit Person Information</h3>
+                <input type="text" class="form-control my-3" placeholder="First name and Last name" aria-label="First name">
+
+                <h3>IV. Attending Physician</h3>
+                <input type="text" class="form-control my-3" placeholder="First name and Last name" aria-label="First name">
+              </div>
+
+              <div class="col">
+                <h3>ㅤ</h3>
+                <div class="row g-3">
+                  <div class="col-sm-7">
+                    <input type="text" class="form-control" placeholder="Birth Date" aria-label="Birth Date">
+                  </div>
+                  <div class="col-sm">
+                    <input type="number" class="form-control" placeholder="Age" aria-label="Age">
+                  </div>
+                  <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Sex" aria-label="Sex">
+                  </div>
+                </div>
+                <input type="text" class="form-control my-3" placeholder="First name and Last name" aria-label="First name">
+
+                <h3>ㅤ</h3>
+                <input type="text" class="form-control" placeholder="Relation to patient" aria-label="First name">
+
+                <h3>ㅤ</h3>
+                <h4>ㅤ</h4>
+                <input type="text" class="form-control" placeholder="Contact Number" aria-label="First name">
+
+                <h3>ㅤ</h3>
+                <input type="text" class="form-control" placeholder="Contact Number" aria-label="First name">
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
