@@ -79,46 +79,64 @@
             <div class="row">
               <div class="col">
                 <h6 class="text-success">I. Patient Information</h6>
-                <input type="text" class="form-control py-3 bg-light" placeholder="First name and Last name" aria-label="First name">
-                <input type="text" class="form-control my-3 py-3" placeholder="Contact Number" aria-label="First name">
+                <input type="text" class="form-control bg-light py-3 bg-light" placeholder="First name and Last name"
+                  aria-label="First name">
+                <input type="text" class="form-control bg-light my-3 py-3" placeholder="Contact Number"
+                  aria-label="First name">
 
                 <h6 class="text-success">II. Person In-charge Information</h6>
-                <input type="text" class="form-control py-3" placeholder="First name and Last name" aria-label="First name">
-                <input type="text" class="form-control my-3 py-3" placeholder="Contact Number" aria-label="First name">
+                <input type="text" class="form-control bg-light py-3" placeholder="First name and Last name"
+                  aria-label="First name">
+                <input type="text" class="form-control bg-light my-3 py-3" placeholder="Contact Number"
+                  aria-label="First name">
 
                 <h6 class="text-success">III. Admit Person Information</h6>
-                <input type="text" class="form-control my-3 py-3" placeholder="First name and Last name" aria-label="First name">
+                <input type="text" class="form-control bg-light my-3 py-3" placeholder="First name and Last name"
+                  aria-label="First name">
 
-                <h6 class="text-success">IV. Attending Physician</h6>
-                <input type="text" class="form-control my-3 py-3" placeholder="First name and Last name" aria-label="First name">
+                <div class="d-flex">
+                  <h6 class="text-success">IV. Attending Physician</h6>
+
+                  <h6 class="text-success mx-auto">IV. Attending Physician</h6>
+
+                </div>
+
+
+                <input type="text" class="form-control bg-light my-3 py-3" placeholder="First name and Last name"
+                  aria-label="First name">
               </div>
 
               <div class="col">
                 <h6 class="text-success">ㅤ</h6>
                 <div class="row g-3">
                   <div class="col-sm-7">
-                    <input type="text" class="form-control py-3" placeholder="Birth Date" aria-label="Birth Date">
+                    <input type="text" class="form-control bg-light py-3" placeholder="Birth Date"
+                      aria-label="Birth Date">
                   </div>
                   <div class="col-sm">
                     <input type="number" class="form-control py-3" placeholder="Age" aria-label="Age">
                   </div>
                   <div class="col-sm">
-                    <input type="text" class="form-control py-3" placeholder="Sex" aria-label="Sex">
+                    <input type="text" class="form-control bg-light py-3" placeholder="Sex" aria-label="Sex">
                   </div>
                 </div>
-                <input type="text" class="form-control my-3 py-3" placeholder="First name and Last name" aria-label="First name">
+                <input type="text" class="form-control bg-light my-3 py-3" placeholder="First name and Last name"
+                  aria-label="First name">
 
                 <h6 class="text-success">ㅤ</h6>
-                <input type="text" class="form-control py-3" placeholder="Relation to patient" aria-label="First name">
+                <input type="text" class="form-control bg-light py-3" placeholder="Relation to patient"
+                  aria-label="First name">
 
                 <h6 class="text-success">ㅤ</h6>
                 <h6 class="text-success">ㅤ</h6>
                 <h6 class="text-success">ㅤ</h6>
-                <input type="text" class="form-control mt-5 py-3" placeholder="Contact Number" aria-label="First name">
+                <input type="text" class="form-control bg-light mt-5 py-3" placeholder="Contact Number"
+                  aria-label="First name">
 
                 <h6 class="text-success">ㅤ</h6>
                 <br>
-                <input type="text" class="form-control py-3" placeholder="Contact Number" aria-label="First name">
+                <input type="text" class="form-control bg-light py-3" placeholder="Contact Number"
+                  aria-label="First name">
 
               </div>
             </div>
