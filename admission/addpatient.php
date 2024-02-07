@@ -73,7 +73,7 @@
         </div>
       </nav>
 
-      <div class="col-10 m-3 ms-5 mt-5 pt-4 mx-auto">
+      <div class="col-10 m-3 ms-5 mt-4 pt-4 mx-auto">
         <div class="card shadow">
           <div class="card-body m-1">
             <div class="row">
