@@ -79,44 +79,87 @@
             <div class="row">
               <div class="col">
                 <h6 class="text-success">I. Patient Information</h6>
-                <input type="text" class="form-control bg-light py-3 bg-light" placeholder="First name and Last name">
-                <input type="text" class="form-control bg-light my-3 py-3" placeholder="Contact Number">
+
+                <form class="form-floating">
+                  <input type="text" class="form-control bg-light" placeholder="">
+                  <label for="floatingInputValue">First name and Last Name</label>
+                </form>
+
+                <form class="form-floating">
+                  <input type="text" class="form-control bg-light my-3" placeholder="">
+                  <label for="floatingInputValue">Contact Number</label>
+                </form>
+
+
 
                 <h6 class="text-success">II. Person In-charge Information</h6>
-                <input type="text" class="form-control bg-light py-3" placeholder="First name and Last name">
-                <input type="text" class="form-control bg-light my-3 py-3" placeholder="Contact Number">
+                <form class="form-floating">
+                  <input type="text" class="form-control bg-light" placeholder="">
+                  <label for="floatingInputValue">First name and Last Name</label>
+                </form>
+
+                <form class="form-floating">
+                  <input type="text" class="form-control bg-light my-3" placeholder="">
+                  <label for="floatingInputValue">Contact Number</label>
+                </form>
 
                 <h6 class="text-success">III. Admit Person Information</h6>
-                <input type="text" class="form-control bg-light my-3 py-3" placeholder="First name and Last name">
+
+                <form class="form-floating my-3">
+                  <input type="text" class="form-control bg-light" placeholder="">
+                  <label for="floatingInputValue">First name and Last Name</label>
+                </form>
 
 
                 <h6 class="text-success">IV. Attending Physician</h6>
-                <input type="text" class="form-control bg-light my-3 py-3" placeholder="First name and Last name">
+                <form class="form-floating my-3">
+                  <input type="text" class="form-control bg-light" placeholder="">
+                  <label for="floatingInputValue">Specialist</label>
+                </form>
               </div>
 
               <div class="col">
                 <h6 class="text-success">ㅤ</h6>
                 <div class="row g-3">
                   <div class="col-sm-7">
-                    <input type="text" class="form-control bg-light py-3" placeholder="Birth Date"
-                      aria-label="Birth Date">
+                  <form class="form-floating">
+                      <input type="text" class="form-control bg-light" placeholder="">
+                      
+                      <label for="floatingInputValue">Birth Date</label>
+                    </form>
                   </div>
                   <div class="col-sm">
-                    <input type="number" class="form-control py-3 bg-light" placeholder="Age" aria-label="Age">
+                    <form class="form-floating">
+                      <input type="text" class="form-control bg-light" placeholder="">
+                      <label for="floatingInputValue">Age</label>
+                    </form>
                   </div>
                   <div class="col-sm">
-                    <input type="text" class="form-control bg-light py-3" placeholder="Sex" aria-label="Sex">
+                  <form class="form-floating">
+                      <input type="text" class="form-control bg-light" placeholder="">
+                      <label for="floatingInputValue">Sex</label>
+                    </form>
                   </div>
                 </div>
-                <input type="text" class="form-control bg-light my-3 py-3" placeholder="First name and Last name">
+                <form class="form-floating my-3">
+                      <input type="text" class="form-control bg-light" placeholder="">
+                      <label for="floatingInputValue">Age</label>
+                    </form>
 
                 <h6 class="text-success">ㅤ</h6>
-                <input type="text" class="form-control bg-light py-3" placeholder="Relation to patient">
+                <form class="form-floating">
+                  <input type="text" class="form-control bg-light" placeholder="">
+                  <label for="floatingInputValue">Relation to Patient</label>
+                </form>
 
                 <h6 class="text-success">ㅤ</h6>
                 <h6 class="text-success">ㅤ</h6>
                 <h7 class="text-success">ㅤ</h7>
-                <input type="text" class="form-control bg-light mt-5 py-3" placeholder="Contact Number">
+
+                <form class="form-floating mt-5">
+                  <input type="text" class="form-control bg-light" placeholder="">
+                  <label for="floatingInputValue">Contact Number</label>
+                </form>
 
 
                 <div class="d-flex">
@@ -125,13 +168,16 @@
                   </span>
                 </div>
 
-                <select class="bg-light form-select form-select-lg mb-3 pb-3 text-secondary"
-                  aria-label="Large select example">
-                  <option selected>Room Number</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+
+                <div class="form-floating">
+                  <select class="form-select bg-light" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>XXX</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <label for="floatingSelect">Room Number</label>
+                </div>
 
                 <div class="buttons mt-4 float-end"><button class="btn btn-light me-2">Cancel</button>
                   <button class="btn btn-success">Submit</button>
