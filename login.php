@@ -55,7 +55,7 @@
 
               <input type="email" class="form-control mb-2" placeholder="Email Address" />
               <input type="password" class="form-control mb-2" placeholder="Password" />
-              <select class="form-select" aria-label="Default select example">
+              <select class="form-select text-secondary" aria-label="Default select example">
                 <option selected>Nurse</option>
                 <option value="1">Admission</option>
               </select>
