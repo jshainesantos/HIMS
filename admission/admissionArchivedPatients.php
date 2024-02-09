@@ -157,9 +157,6 @@
             </li>
           </ul>
 
-
-
-
           <div class="right d-flex">
             <form role="search">
               <input class="form-control" type="search" placeholder="Search" aria-label="Search">

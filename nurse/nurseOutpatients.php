@@ -190,11 +190,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -202,11 +197,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -214,11 +204,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -226,11 +211,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -238,11 +218,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -250,11 +225,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -262,11 +232,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -274,11 +239,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -286,11 +246,6 @@
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
-
-                  <td class="text-center"><span class="btn material-symbols-outlined text-success">
-                      download_for_offline
-                    </span>
-                  </td>
                 </tr>
               </tbody>
             </table>
