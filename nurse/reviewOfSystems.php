@@ -116,7 +116,7 @@
                             </div>
 
                             <!-- Constitutonal -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>Constitutonal</p>
                                     <div class="row">
@@ -161,7 +161,7 @@
                             </div>
 
                             <!-- Hermatology -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>Hermatology</p>
                                     <div class="row">
@@ -188,7 +188,7 @@
                             </div>
 
                             <!-- EENT -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>EENT</p>
                                     <div class="row">
@@ -255,7 +255,7 @@
                             </div>
 
                             <!-- CNS -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>CNS</p>
                                     <div class="row">
@@ -322,7 +322,7 @@
                             </div>
 
                             <!-- Respiratory -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>Respiratory</p>
                                     <div class="row">
@@ -389,7 +389,7 @@
                             </div>
 
                             <!-- CVS -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>CVS</p>
                                     <div class="row">
@@ -425,7 +425,7 @@
                             </div>
 
                             <!-- GIT -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>GIT</p>
                                     <div class="row">
@@ -512,7 +512,7 @@
                             </div>
 
                             <!-- Genitourinary Tract -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p> Genitourinary Tract</p>
                                     <div class="row">
@@ -570,7 +570,7 @@
                             </div>
 
                             <!-- Musculoskeletal -->
-                            <div class="card checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p> Musculoskeletal</p>
                                     <div class="row">
@@ -619,8 +619,8 @@
                             <!-- Vital Signs -->
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2 bg-light">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">GCS</label>
                                     </div>
@@ -629,22 +629,22 @@
 
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN I</label>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN II</label>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN III IV, V</label>
                                     </div>
@@ -653,22 +653,22 @@
 
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN VI</label>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN VII</label>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN VIII</label>
                                     </div>
@@ -677,22 +677,22 @@
 
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN I</label>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN IX, X</label>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN XI, XII</label>
                                     </div>
@@ -701,19 +701,22 @@
 
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Babinski
-                                        </label>
+                                    <div class="d-flex">
+                                        <div class="form-check mt-2 bg-light px-4 rounded-2">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Babinski
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">Motor</label>
                                     </div>
@@ -722,8 +725,8 @@
 
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">Sensory</label>
                                     </div>
@@ -734,23 +737,26 @@
 
                         <!-- RIGHT -->
                         <div class="col-6">
-                            <h5 class="text-success">ㅤ</h5>
+                            <div class="d-flex">
+                                <h6 class="text-success bg-success bg-opacity-25 rounded-1 p-1">Physical Examinations
+                                </h6>
+                            </div>
                             <!-- Obstetrical History -->
-                            <div class="card inputs">
+                            <div class="card my-2 bg-light inputs">
                                 <div class="card-body">
                                     <!-- Vital Signs -->
                                     <div class="row">
                                         <p>Vital Signs</p>
                                         <div class="col">
-                                            <div class="form-floating">
-                                                <textarea class="form-control" id="floatingTextarea2"
+                                            <div class="form-floating mt-2">
+                                                <textarea class="form-control bg-light" id="floatingTextarea2"
                                                     style="height: 50px">mmHg</textarea>
                                                 <label for="floatingTextarea2">Blood Pressure</label>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-floating">
-                                                <textarea class="form-control" id="floatingTextarea2"
+                                            <div class="form-floating mt-2">
+                                                <textarea class="form-control bg-light" id="floatingTextarea2"
                                                     style="height: 50px">cpm</textarea>
                                                 <label for="floatingTextarea2">Respiratory Rate</label>
                                             </div>
@@ -759,22 +765,22 @@
 
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-floating">
-                                                <textarea class="form-control" id="floatingTextarea2"
+                                            <div class="form-floating mt-2">
+                                                <textarea class="form-control bg-light" id="floatingTextarea2"
                                                     style="height: 50px"></textarea>
                                                 <label for="floatingTextarea2">CR</label>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-floating">
-                                                <textarea class="form-control" id="floatingTextarea2"
+                                            <div class="form-floating mt-2">
+                                                <textarea class="form-control bg-light" id="floatingTextarea2"
                                                     style="height: 50px"></textarea>
                                                 <label for="floatingTextarea2">Temperature</label>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-floating">
-                                                <textarea class="form-control" id="floatingTextarea2"
+                                            <div class="form-floating mt-2">
+                                                <textarea class="form-control bg-light" id="floatingTextarea2"
                                                     style="height: 50px"></textarea>
                                                 <label for="floatingTextarea2">Weight</label>
                                             </div>
@@ -782,93 +788,98 @@
                                     </div>
 
                                     <!-- HEENT -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">HEENT</label>
                                     </div>
 
                                     <!-- Neck -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Neck</label>
                                     </div>
 
                                     <!-- Chest -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Chest</label>
                                     </div>
 
                                     <!-- Lungs -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Lungs</label>
                                     </div>
 
                                     <!-- Heart -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Heart</label>
                                     </div>
 
                                     <!-- Abdoment -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Abdoment</label>
                                     </div>
 
                                     <!-- Breast -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Breast</label>
                                     </div>
 
                                     <!-- Extremities -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Extremities</label>
                                     </div>
 
                                     <!-- Internal Examination -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Internal Examination</label>
                                     </div>
 
                                     <!-- Ractal Examination -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Ractal Examination</label>
                                     </div>
 
                                     <!-- Clinical Impression -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
-                                            style="height: 300px"></textarea>
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                            style="height: 228px"></textarea>
                                         <label for="floatingTextarea2">Clinical Impression</label>
                                     </div>
 
                                     <!-- Work up -->
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="floatingTextarea2"
-                                            style="height: 300px"></textarea>
+                                    <div class="form-floating mt-2">
+                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                            style="height: 228px"></textarea>
                                         <label for="floatingTextarea2">Work up</label>
                                     </div>
-
                                 </div>
+
+                            </div>
+                            <div class="buttons my-4 float-end"><button class="btn btn-light me-2">Cancel</button>
+                                <button class="btn btn-success">Next</button>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>

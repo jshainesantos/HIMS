@@ -88,19 +88,19 @@
 
             <div class="col-10 mt-4 pt-4 mx-auto">
                 <h3>Edit Patient Complete History</h3>
-                <div class="card my-2 mt-4">
+                <div class="card mt-4">
                     <!-- BAR -->
                     <div class="bar mt-5">
                         <div class="position-relative mb-5 mx-5">
                             <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50"
                                 aria-valuemin="0" aria-valuemax="100" style="height: 1px;">
-                                <div class="progress-bar bg-success" style="width: 50%"></div>
+                                <div class="progress-bar bg-success"></div>
                             </div>
                             <button type="button"
                                 class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-success rounded-pill"
                                 style="width: 2rem; height:2rem;">1</button>
                             <button type="button"
-                                class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-success rounded-pill"
+                                class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-secondary rounded-pill"
                                 style="width: 2rem; height:2rem;">2</button>
                             <button type="button"
                                 class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill"
@@ -113,13 +113,14 @@
                         <div class="col-6">
                             <h5 class="text-success">I. Medical History</h5>
                             <div class="form-floating">
-                                <textarea class="form-control" id="floatingTextarea2" style="height: 300px"></textarea>
+                                <textarea class="form-control bg-light bg-light" id="floatingTextarea2"
+                                    style="height: 300px"></textarea>
                                 <label for="floatingTextarea2">Complete History</label>
                             </div>
 
                             <!-- CHECK BOXES -->
                             <!-- Past Medical History -->
-                            <div class="card my-2 checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>Past Medical History</p>
                                     <div class="row">
@@ -217,18 +218,21 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    Others:
-                                                </label>
+                                                <div class="d-flex align-items-center">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Others:
+                                                    </label>
+                                                    <input type="text" class=" form-control form-control-sm border-light rounded-2 ms-2">
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
 
                             <!-- Family History -->
-                            <div class="card my-2 checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>Family History</p>
                                     <div class="row">
@@ -294,7 +298,7 @@
                             </div>
 
                             <!-- Personal/Social History -->
-                            <div class="card my-2 checkboxes">
+                            <div class="card my-2 bg-light checkboxes">
                                 <div class="card-body">
                                     <p>Personal/Social History</p>
                                     <div class="row">
@@ -330,7 +334,7 @@
                             </div>
 
                             <!-- Menstrual History -->
-                            <div class="card my-2 inputs">
+                            <div class="card my-2 bg-light inputs">
                                 <div class="card-body">
                                     <p>Menstrual History</p>
                                     <div class="row">
@@ -342,7 +346,7 @@
                                         </div>
                                         <div class="col">
                                             <input type="text" class="form-control rounded-4"
-                                                placeholder="Dusmenorrhea">
+                                                placeholder="Dysmenorrhea">
                                         </div>
                                     </div>
                                 </div>
@@ -355,39 +359,40 @@
                         <div class="col-6">
                             <h5 class="text-success">ㅤ</h5>
                             <!-- Obstetrical History -->
-                            <div class="card my-2 inputs">
+                            <div class="card my-2 bg-light inputs">
                                 <div class="card-body">
                                     <p>Obstetrical History</p>
                                     <div class="row">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
+                                            <input type="text" class="form-control rounded-4" placeholder="LMP">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
+                                            <input type="text" class="form-control rounded-4" placeholder="PMP">
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row  mt-2">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
+                                            <input type="text" class="form-control rounded-4" placeholder="AOG">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control rounded-4" placeholder="EDC">
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row  mt-2">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
+                                            <input type="text" class="form-control rounded-4"
+                                                placeholder="Prenatal Check-ups">
+                                        </div>
+                                    </div>
+
+                                    <div class="row  mt-2">
+                                        <div class="col">
+                                            <input type="text" class="form-control rounded-4" placeholder="Gravida">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
+                                            <input type="text" class="form-control rounded-4" placeholder="Para">
                                         </div>
                                     </div>
 
@@ -429,7 +434,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="upload">
+                                    <div class="upload mt-3">
                                         <div class="card-body text-success py-4"
                                             style="border-style: dashed; border-radius: 10px;">
                                             <div class="d-flex justify-content-center">
@@ -447,74 +452,81 @@
                             </div>
 
                             <!-- Pediatric Medical History -->
-                            <div class="card my-2 inputs">
+                            <div class="card my-2 bg-light inputs">
                                 <div class="card-body">
                                     <p>Pediatric Medical History</p>
                                     <div class="row">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
+                                            <input type="text" class="form-control rounded-4" placeholder="Term">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
+                                            <input type="text" class="form-control rounded-4" placeholder="Preterm">
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row  mt-2">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
+                                            <input type="text" class="form-control rounded-4"
+                                                placeholder="Postterm (AOG)">
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row  mt-2">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
+                                            <input type="text" class="form-control rounded-4" placeholder="Birth by">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control rounded-4" placeholder="NSG/CS">
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row  mt-2">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
+                                            <input type="text" class="form-control rounded-4"
+                                                placeholder="Age of mother at pregnancy">
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row  mt-2">
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Interval">
+                                            <input type="text" class="form-control rounded-4"
+                                                placeholder="No. of Pregnancy">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
+                                            <input type="text" class="form-control rounded-4" placeholder="First">
+                                        </div>
+                                    </div>
+
+                                    <div class="row  mt-2">
+                                        <div class="col">
+                                            <input type="text" class="form-control rounded-4" placeholder="Second">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control rounded-4" placeholder="Duration">
+                                            <input type="text" class="form-control rounded-4" placeholder="Third">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control rounded-4" placeholder="Others">
                                         </div>
                                     </div>
 
                                     <!-- Maternal complications -->
-                                    <div class="form-floating">
+                                    <div class="form-floating  mt-2">
                                         <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Maternal complications</label>
                                     </div>
 
                                     <!-- Immunizations -->
-                                    <div class="form-floating">
+                                    <div class="form-floating mt-2">
                                         <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Immunizations</label>
                                     </div>
                                 </div>
+
+                            </div>
+                            <div class="buttons my-4 float-end"><button class="btn btn-light me-2">Cancel</button>
+                                <button class="btn btn-success">Next</button>
                             </div>
                         </div>
                     </div>
