@@ -99,6 +99,7 @@
                 class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill"
                 style="width: 2rem; height:2rem;">3</button>
             </div>
+            
             <h6 class="text-success">II. Current Medication</h6>
 
             <div class="row mt-4">

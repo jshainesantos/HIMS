@@ -247,22 +247,13 @@
 
                         <ul class="nav nav-underline overflow-x-auto">
                             <li class="nav-item">
-                                <a class="nav-link active text-success" aria-current="page" href="#">Chemistry</a>
+                                <a class="nav-link active text-success" href="#">X-Ray</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-secondary " href="#">Hematology</a>
+                                <a class="nav-link text-secondary" href="#">Ultrasound Procedures</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">BB-IS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Parasitology</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Microbiology</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Microscopy</a>
+                                <a class="nav-link text-secondary" href="#">CT-Scan Procedures</a>
                             </li>
                         </ul>
                         <table class="table table-striped mt-3 Add">
