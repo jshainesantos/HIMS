@@ -620,7 +620,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-floating mt-2 bg-light">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">GCS</label>
                                     </div>
@@ -630,21 +630,21 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN I</label>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN II</label>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN III IV, V</label>
                                     </div>
@@ -654,21 +654,21 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN VI</label>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN VII</label>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN VIII</label>
                                     </div>
@@ -678,21 +678,21 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN I</label>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN IX, X</label>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">CN XI, XII</label>
                                     </div>
@@ -716,7 +716,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">Motor</label>
                                     </div>
@@ -726,7 +726,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 50px">Details</textarea>
                                         <label for="floatingTextarea2">Sensory</label>
                                     </div>
@@ -749,14 +749,14 @@
                                         <p>Vital Signs</p>
                                         <div class="col">
                                             <div class="form-floating mt-2">
-                                                <textarea class="form-control bg-light" id="floatingTextarea2"
+                                                <textarea class="form-control" id="floatingTextarea2"
                                                     style="height: 50px">mmHg</textarea>
                                                 <label for="floatingTextarea2">Blood Pressure</label>
                                             </div>
                                         </div>
                                         <div class="col">
                                             <div class="form-floating mt-2">
-                                                <textarea class="form-control bg-light" id="floatingTextarea2"
+                                                <textarea class="form-control" id="floatingTextarea2"
                                                     style="height: 50px">cpm</textarea>
                                                 <label for="floatingTextarea2">Respiratory Rate</label>
                                             </div>
@@ -766,21 +766,21 @@
                                     <div class="row">
                                         <div class="col">
                                             <div class="form-floating mt-2">
-                                                <textarea class="form-control bg-light" id="floatingTextarea2"
+                                                <textarea class="form-control" id="floatingTextarea2"
                                                     style="height: 50px"></textarea>
                                                 <label for="floatingTextarea2">CR</label>
                                             </div>
                                         </div>
                                         <div class="col">
                                             <div class="form-floating mt-2">
-                                                <textarea class="form-control bg-light" id="floatingTextarea2"
+                                                <textarea class="form-control" id="floatingTextarea2"
                                                     style="height: 50px"></textarea>
                                                 <label for="floatingTextarea2">Temperature</label>
                                             </div>
                                         </div>
                                         <div class="col">
                                             <div class="form-floating mt-2">
-                                                <textarea class="form-control bg-light" id="floatingTextarea2"
+                                                <textarea class="form-control" id="floatingTextarea2"
                                                     style="height: 50px"></textarea>
                                                 <label for="floatingTextarea2">Weight</label>
                                             </div>
@@ -789,84 +789,84 @@
 
                                     <!-- HEENT -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">HEENT</label>
                                     </div>
 
                                     <!-- Neck -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Neck</label>
                                     </div>
 
                                     <!-- Chest -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Chest</label>
                                     </div>
 
                                     <!-- Lungs -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Lungs</label>
                                     </div>
 
                                     <!-- Heart -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Heart</label>
                                     </div>
 
                                     <!-- Abdoment -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Abdoment</label>
                                     </div>
 
                                     <!-- Breast -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Breast</label>
                                     </div>
 
                                     <!-- Extremities -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Extremities</label>
                                     </div>
 
                                     <!-- Internal Examination -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Internal Examination</label>
                                     </div>
 
                                     <!-- Ractal Examination -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Ractal Examination</label>
                                     </div>
 
                                     <!-- Clinical Impression -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 228px"></textarea>
                                         <label for="floatingTextarea2">Clinical Impression</label>
                                     </div>
 
                                     <!-- Work up -->
                                     <div class="form-floating mt-2">
-                                        <textarea class="form-control bg-light" id="floatingTextarea2"
+                                        <textarea class="form-control" id="floatingTextarea2"
                                             style="height: 228px"></textarea>
                                         <label for="floatingTextarea2">Work up</label>
                                     </div>
