@@ -80,7 +80,7 @@
       </nav>
 
       <div class="col-10 m-3 m-5 pt-4 mx-auto">
-        <div class="card shadow">
+        <div class="card shadow bg-light bg-opacity-25">
           <div class="card-body m-5">
 
             <!-- Bar -->
@@ -105,13 +105,13 @@
             <div class="row mt-4">
               <div class="col">
                 <form class="form-floating">
-                  <input type="text" class="form-control bg-light" placeholder="">
+                  <input type="text" class="form-control" placeholder="">
                   <label for="floatingInputValue">Name of Medication</label>
                 </form>
               </div>
               <div class="col">
                 <form class="form-floating">
-                  <input type="text" class="form-control bg-light" placeholder="">
+                  <input type="text" class="form-control" placeholder="">
                   <label for="floatingInputValue">Dosage</label>
                 </form>
               </div>
@@ -130,13 +130,13 @@
             <div class="row mt-4">
               <div class="col">
                 <form class="form-floating">
-                  <input type="text" class="form-control bg-light" placeholder="">
+                  <input type="text" class="form-control" placeholder="">
                   <label for="floatingInputValue">Frequency</label>
                 </form>
               </div>
               <div class="col">
                 <form class="form-floating">
-                  <input type="text" class="form-control bg-light" placeholder="">
+                  <input type="text" class="form-control" placeholder="">
                   <label for="floatingInputValue">Prescribing Physician</label>
                 </form>
               </div>

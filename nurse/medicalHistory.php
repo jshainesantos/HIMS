@@ -88,7 +88,7 @@
 
             <div class="col-10 mt-4 pt-4 mx-auto">
                 <h3>Edit Patient Complete History</h3>
-                <div class="card mt-4">
+                <div class="card shadow mt-4">
                     <!-- BAR -->
                     <div class="bar mt-5">
                         <div class="position-relative mb-5 mx-5">
@@ -113,19 +113,19 @@
                         <div class="col-6">
                             <h5 class="text-success">I. Medical History</h5>
                             <div class="form-floating">
-                                <textarea class="form-control bg-light bg-light" id="floatingTextarea2"
-                                    style="height: 300px"></textarea>
+                                <textarea class="form-control" id="floatingTextarea2"
+                                    style="height: 400px"></textarea>
                                 <label for="floatingTextarea2">Complete History</label>
                             </div>
 
                             <!-- CHECK BOXES -->
                             <!-- Past Medical History -->
-                            <div class="card my-2 bg-light checkboxes">
+                            <div class="card my-2 checkboxes">
                                 <div class="card-body">
                                     <p>Past Medical History</p>
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -134,7 +134,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -143,7 +143,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -155,7 +155,7 @@
 
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -164,7 +164,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -173,7 +173,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -185,7 +185,7 @@
 
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -194,7 +194,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -203,7 +203,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -215,7 +215,7 @@
 
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input mt-2" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <div class="d-flex align-items-center">
@@ -232,12 +232,12 @@
                             </div>
 
                             <!-- Family History -->
-                            <div class="card my-2 bg-light checkboxes">
+                            <div class="card my-2 checkboxes">
                                 <div class="card-body">
                                     <p>Family History</p>
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -246,7 +246,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -255,7 +255,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -267,7 +267,7 @@
 
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -276,7 +276,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -285,7 +285,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -298,12 +298,12 @@
                             </div>
 
                             <!-- Personal/Social History -->
-                            <div class="card my-2 bg-light checkboxes">
+                            <div class="card my-2 checkboxes">
                                 <div class="card-body">
                                     <p>Personal/Social History</p>
                                     <div class="row">
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -312,7 +312,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
@@ -321,7 +321,7 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="form-check">
+                                            <div class="form-check bg-light rounded-2 py-1">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
