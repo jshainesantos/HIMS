@@ -216,7 +216,7 @@
                                     <div class="row">
                                         <div class="col">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
+                                                <input class="form-check-input mt-2" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <div class="d-flex align-items-center">
                                                     <label class="form-check-label" for="flexCheckDefault">
