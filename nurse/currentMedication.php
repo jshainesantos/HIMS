@@ -99,7 +99,7 @@
                 class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-success rounded-pill"
                 style="width: 2rem; height:2rem;">3</button>
             </div>
-            
+
             <h6 class="text-success">II. Current Medication</h6>
 
             <div class="row mt-4">
@@ -120,10 +120,12 @@
             <!-- UPLOAD -->
             <div class=" mt-4">
               <div class="card-body text-success" style="border-style: dashed; padding: 3rem; border-radius: 10px;">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center align-items-center">
+                  <span class="material-symbols-outlined mb-3 me-3 fs-3">
+                    add_circle
+                  </span>
                   <p class="fs-4">Add Medication</p>
                 </div>
-
               </div>
             </div>
 
@@ -166,7 +168,8 @@
                         </span>
                       </h1>
                       <h2 class="text-center">Confirm Submission?</h2>
-                      <p class="text-center">The information entered in this form will be saved. <br> Are you sure you want to save this?</p>
+                      <p class="text-center">The information entered in this form will be saved. <br> Are you sure you
+                        want to save this?</p>
 
                       <div class="d-flex justify-content-evenly mt-5">
                         <button class="btn btn-light">Cancel</button>
