@@ -179,7 +179,113 @@
       </div>
 
       <div class="col-8 mt-5">
+        <div class="card mt-5 pe-0">
+          <div class="card-body m-1">
+            <div class="d-flex justify-content-between mb-4">
+              <h4>Today's Patients</h4>
+              <div class="right d-flex">
+                <form role="search">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <select class="ms-2 form-select form-select-sm" aria-label="Small select example">
+                  <option selected>Order by</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
 
+
+            <table class="table table-striped mt-3 Add">
+              <thead>
+                <tr>
+                  <th scope="col"> </th>
+                  <th scope="col">Patient ID</th>
+                  <th class="text-center" scope="col">Patient Name</th>
+                  <th class="text-center" scope="col">Gender</th>
+                  <th class="text-center" scope="col">Age</th>
+                  <th class="text-center" scope="col">Room Number</th>
+                  <th class="text-center" scope="col">Attending Physician</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">7:30 AM</th>
+                  <th scope="text-center">xx</th>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xxxxxx xxxxxx</td>
+                  <td class="text-center">xxxxx</td>
+                  <td class="text-center">xx</td>
+                  <td class="text-center">xxx</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   </div>

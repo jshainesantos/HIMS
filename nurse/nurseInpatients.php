@@ -190,9 +190,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -201,9 +202,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -212,9 +214,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -223,9 +226,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -234,9 +238,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -245,9 +250,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -256,9 +262,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -267,9 +274,10 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -278,12 +286,75 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xx</td>
                   <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
-                      download
-                    </span></td>
+                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      archive
+                    </button></td>
                 </tr>
               </tbody>
             </table>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body m-3">
+                    <div class="modalContent">
+                      <h1 class="text-center text-success">
+                        <span class="material-symbols-outlined">
+                          archive
+                        </span>
+                      </h1>
+                      <h2 class="text-center">Send Clearance</h2>
+                      <p class="text-center">The patient will be sent to Billing Department. <br> Are you sure you want to send this?</p>
+
+                      <div class="d-flex justify-content-evenly mt-5">
+                        <button class="btn btn-light">Cancel</button>
+                        <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal2">
+                          Send
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Second Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body m-3">
+                    <div class="modalContent">
+                      <h1 class="text-center text-success">
+                        <span class="material-symbols-outlined">
+                          lock
+                        </span>
+                      </h1>
+                      <h2 class="text-center">Enter Password</h2>
+                      <p class="text-center">Password is required to save the input.</p>
+                      <div class="d-flex justify-content-evenly mt-5">
+                        <form class="row g-3">
+                          <div class="col-auto">
+                            <label for="inputPassword2" class="visually-hidden">Password</label>
+                            <input type="password" class="form-control text-success text-center" id="inputPassword2"
+                              placeholder="Password">
+                          </div>
+                          <div class="col-auto">
+                            <button type="submit" class="btn btn-success mb-3">Enter</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

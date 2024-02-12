@@ -182,7 +182,7 @@
                   <th scope="col">Patient ID</th>
                   <th class="text-center" scope="col">Patient Name</th>
                   <th class="text-center" scope="col">Attending Physician</th>
-                  <th class="text-center" scope="col">Archived Date</th>
+                  <th class="text-center" scope="col">Admission Date</th>
                 </tr>
               </thead>
               <tbody>
@@ -190,65 +190,47 @@
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-
-                </tr>
+                  <td class="text-center">xxxxx</td></tr>
               </tbody>
             </table>
           </div>
