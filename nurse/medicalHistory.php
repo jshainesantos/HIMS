@@ -397,7 +397,7 @@
                                     </div>
 
                                     <!-- First Pregnancy -->
-                                    <div class="card my-2 bg-success bg-opacity-25 rounded-4">
+                                    <div class="card my-2 rounded-4">
                                         <div class="card-body">
                                             <p>First Pregnancy</p>
                                             <div class="d-flex">

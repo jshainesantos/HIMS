@@ -86,7 +86,7 @@
 
   <div class="container-fluid">
     <div class="row">
-    <nav id="sidebar" class="col-lg-1 bg-success text-white rounded-end-5 text-center">
+      <nav id="sidebar" class="col-lg-1 bg-success text-white rounded-end-5 text-center">
         <div class="position-sticky">
           <ul class="nav flex-column">
             <li class="nav-item mt-3">
@@ -137,7 +137,7 @@
           </ul>
         </div>
       </nav>
-      
+
       <div class="col-10  m-3 ms-5 mt-5 pt-4">
         <div class="up-table d-flex justify-content-between">
           <ul class="nav nav-pills">
@@ -179,8 +179,7 @@
                   <th scope="col">Patient ID</th>
                   <th class="text-center" scope="col">Patient Name</th>
                   <th class="text-center" scope="col">Attending Physician</th>
-                  <th class="text-center" scope="col">Visit Date</th>
-                  <th class="text-center" scope="col">Follow-up Date</th>
+                  <th class="text-center" scope="col">Date of Consult</th>
                 </tr>
               </thead>
               <tbody>
@@ -189,63 +188,81 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
+                  <td class="text-center"><span class="material-symbols-outlined text-success btn">
+                      download
+                    </span></td>
                 </tr>
               </tbody>
             </table>

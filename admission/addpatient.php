@@ -179,9 +179,76 @@
                   <label for="floatingSelect">Room Number</label>
                 </div>
 
-                <div class="buttons mt-4 float-end"><button class="btn btn-light me-2">Cancel</button>
-                  <button class="btn btn-success">Submit</button>
+                <!-- Buttons -->
+            <div class="buttons mt-4 float-end">
+              <button class="btn btn-light">
+                Cancel
+              </button>
+
+              <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Submit
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body m-3">
+                    <div class="modalContent">
+                      <h1 class="text-center text-success">
+                        <span class="material-symbols-outlined">
+                          error
+                        </span>
+                      </h1>
+                      <h2 class="text-center">Confirm Submission?</h2>
+                      <p class="text-center">The information entered in this form will be saved. <br> Are you sure you
+                        want to save this?</p>
+
+                      <div class="d-flex justify-content-evenly mt-5">
+                        <button class="btn btn-light">Cancel</button>
+                        <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal2">
+                          Save
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+
+            <!-- Second Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body m-3">
+                    <div class="modalContent">
+                      <h1 class="text-center text-success">
+                        <span class="material-symbols-outlined">
+                          lock
+                        </span>
+                      </h1>
+                      <h2 class="text-center">Enter Password</h2>
+                      <p class="text-center">Password is required to save the input.</p>
+                      <div class="d-flex justify-content-evenly mt-5">
+                        <form class="row g-3">
+                          <div class="col-auto">
+                            <label for="inputPassword2" class="visually-hidden">Password</label>
+                            <input type="password" class="form-control text-success text-center" id="inputPassword2" placeholder="Password">
+                          </div>
+                          <div class="col-auto">
+                            <button type="submit" class="btn btn-success mb-3">Enter</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
               </div>
             </div>
