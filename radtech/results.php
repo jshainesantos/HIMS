@@ -122,7 +122,7 @@
                             </svg>
 
                         </li>
-                        <p>MEDTECH NAME</p>
+                        <p>RADTECH NAME</p>
                         <li class="nav-item mt-5">
                             <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
                                 href="#">
@@ -155,23 +155,13 @@
                             <div class="right d-flex">
                                 <ul class="nav nav-underline overflow-x-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link active text-success" aria-current="page"
-                                            href="#">Chemistry</a>
+                                        <a class="nav-link active text-success" aria-current="page" href="#">X-Ray</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Hematology</a>
+                                        <a class="nav-link text-secondary" href="#">Ultrasound Procedures</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">BB-IS</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Parasitogy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Microbiology</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Microscopy</a>
+                                        <a class="nav-link text-secondary" href="#">CT-Scan Procedures</a>
                                     </li>
                                 </ul>
                             </div>

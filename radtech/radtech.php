@@ -18,7 +18,7 @@
       <div class="position-absolute top-0 end-0 mt-3 me-3">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          + Add Patient
+          Send Result
         </button>
 
         <!-- Modal -->
@@ -42,7 +42,8 @@
                               <image id="image0_1132_22539" width="128" height="128"
                                 xlink:href="data:image/png;base64,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" />
                             </defs>
-                          </svg> </h1>
+                          </svg>
+                        </h1>
                         <h3 class="text-light">Inpatient</h3>
                       </div>
                     </div>
@@ -60,7 +61,8 @@
                               <image id="image0_1132_22543" width="128" height="128"
                                 xlink:href="data:image/png;base64,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" />
                             </defs>
-                          </svg> </h1>
+                          </svg>
+                        </h1>
                         <h3 class="text-light">Outpatient</h3>
                       </div>
                     </div>
@@ -88,7 +90,7 @@
         <div class="position-sticky">
           <ul class="nav flex-column">
             <li class="nav-item mt-3">
-              <a class="mt-1 btn p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
+              <a class="mt-4 btn p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
                 <svg width="65" height="90" viewBox="0 0 65 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M1.58026 84V65.8182H5.42436V73.32H13.228V65.8182H17.0632V84H13.228V76.4893H5.42436V84H1.58026ZM24.0767 65.8182V84H20.2326V65.8182H24.0767ZM27.2394 65.8182H31.9802L36.9873 78.0341H37.2004L42.2075 65.8182H46.9482V84H43.2195V72.1658H43.0686L38.3634 83.9112H35.8243L31.1191 72.1214H30.9681V84H27.2394V65.8182ZM59.9787 71.0472C59.9077 70.3311 59.6029 69.7747 59.0643 69.3782C58.5257 68.9817 57.7947 68.7834 56.8714 68.7834C56.2441 68.7834 55.7144 68.8722 55.2823 69.0497C54.8503 69.2214 54.5188 69.4611 54.288 69.7688C54.0631 70.0766 53.9506 70.4258 53.9506 70.8164C53.9388 71.1419 54.0069 71.426 54.1548 71.6687C54.3087 71.9113 54.5188 72.1214 54.7852 72.299C55.0515 72.4706 55.3593 72.6216 55.7085 72.7518C56.0576 72.8761 56.4305 72.9826 56.8271 73.0714L58.4606 73.462C59.2537 73.6396 59.9817 73.8763 60.6445 74.1722C61.3074 74.4682 61.8815 74.8321 62.3668 75.2642C62.8522 75.6963 63.228 76.2053 63.4943 76.7912C63.7666 77.3771 63.9057 78.0489 63.9116 78.8065C63.9057 79.9192 63.6216 80.8839 63.0593 81.7006C62.503 82.5115 61.698 83.1418 60.6445 83.5916C59.5969 84.0355 58.3333 84.2575 56.8537 84.2575C55.3859 84.2575 54.1075 84.0326 53.0185 83.5827C51.9354 83.1329 51.089 82.4671 50.4794 81.5852C49.8757 80.6974 49.5591 79.5996 49.5295 78.2915H53.2493C53.2907 78.9012 53.4653 79.4102 53.7731 79.8185C54.0868 80.221 54.504 80.5258 55.0249 80.733C55.5516 80.9342 56.1464 81.0348 56.8093 81.0348C57.4603 81.0348 58.0256 80.9401 58.505 80.7507C58.9903 80.5613 59.3661 80.2979 59.6325 79.9606C59.8988 79.6232 60.032 79.2356 60.032 78.7976C60.032 78.3892 59.9106 78.0459 59.668 77.7678C59.4312 77.4896 59.082 77.2528 58.6204 77.0575C58.1647 76.8622 57.6054 76.6847 56.9425 76.5249L54.9627 76.0277C53.4298 75.6548 52.2195 75.0719 51.3317 74.2788C50.4439 73.4857 50.003 72.4174 50.0089 71.0739C50.003 69.973 50.2959 69.0112 50.8878 68.1886C51.4856 67.3659 52.3053 66.7237 53.3469 66.2621C54.3886 65.8004 55.5723 65.5696 56.8981 65.5696C58.2475 65.5696 59.4253 65.8004 60.4315 66.2621C61.4435 66.7237 62.2307 67.3659 62.793 68.1886C63.3552 69.0112 63.6452 69.9641 63.663 71.0472H59.9787Z"
@@ -107,26 +109,20 @@
               </svg>
 
             </li>
-            <p>NURSE NAME</p>
+            <p>RADTECH NAME</p>
             <li class="nav-item mt-5">
               <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
-                event_available
+                file_open
               </a>
             </li>
-            <p>Patients</p>
-            <li class="nav-item mt-2">
+            <p>Requests</p>
+            <li class="nav-item mt-4">
               <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
-                experiment
+                note_add
               </a>
             </li>
-            <p>Laboratory</p>
-            <li class="nav-item mt-2">
-              <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
-                rib_cage
-              </a>
-            </li>
-            <p>Imaging Services</p>
-            <li class="nav-item my-4 pt-2">
+            <p>Results</p>
+            <li class="nav-item my-5 pt-3">
               <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
                 logout
               </a>
@@ -136,50 +132,105 @@
         </div>
       </nav>
 
-      <div class="col-10  m-3 ms-5 mt-5 pt-4">
-        <div class="up-table d-flex justify-content-between">
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link active bg-success" aria-current="page" href="#">
-                Inpatient
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-success" href="#">
-                Outpatient
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-success" href="#">
-                Archived
-              </a>
-            </li>
-          </ul>
-          <div class="right d-flex">
-            <form role="search">
-              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            </form>
-            <select class="ms-2 form-select form-select-sm" aria-label="Small select example">
-              <option selected>Order by</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+      <div class="col-5 mt-5 ps-4 pt-5">
+
+        <div class="col-12">
+          <div class="p-1">
+            <div class="py-4 mb-2 card shadow bg-light text-secondary">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col text-center">
+                    <h5>TIME</h5>
+                  </div>
+                  <div class="col">
+                    <h6>Date</h6>
+                    <h6>Wednesday</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="row g-2 text-center">
+        <div class="col-6">
+            <div class="p-1">
+              <div class="py-2 btn card shadow bg-success bg-opacity-25">
+                <div class="card-body">
+                  <span class="material-symbols-outlined fs-1">
+                    rib_cage
+                  </span>
+                  <p class="fw-bold">X-Ray</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-6">
+            <div class="p-1">
+              <div class="py-2 card shadow bg-light text-secondary">
+                <div class="card-body">
+                  <span class="material-symbols-outlined fs-1">
+                    sensor_occupied
+                  </span>
+                  <p class="fw-bold">CT Scan</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <div class="card mt-4">
+          <div class="col-6">
+            <div class="p-1">
+              <div class="py-2 card shadow bg-light text-secondary">
+                <div class="card-body">
+                  <span class="material-symbols-outlined fs-1">
+                    neurology
+                  </span>
+                  <p class="fw-bold">MRI</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="p-1">
+              <div class="py-2 card shadow bg-light text-secondary">
+                <div class="card-body">
+                  <span class="material-symbols-outlined fs-1">
+                  radiology
+                  </span>
+                  <p class="fw-bold">Mammography</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="p-1">
+              <div class="py-2 card shadow bg-light text-secondary">
+                <div class="card-body">
+                  <span class="material-symbols-outlined fs-1">
+                    oncology
+                  </span>
+                  <p class="fw-bold">Sonography</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-6 mt-5">
+        <div class="card mt-5 pe-0">
           <div class="card-body m-1">
-            <table class="table table-striped">
+            <h4>New Requests</h4>
+            <table class="table table-striped mt-3 Add">
               <thead>
                 <tr>
                   <th scope="col">Patient ID</th>
                   <th class="text-center" scope="col">Patient Name</th>
-                  <th class="text-center" scope="col">Attending Physician</th>
-                  <th class="text-center" scope="col">Room Number</th>
-                  <th class="text-center" scope="col">Admission Date</th>
-                  <th class="text-center" scope="col">Discharge Date</th>
+                  <th class="text-center" scope="col">Type of Service</th>
+                  <th class="text-center" scope="col">Time Requested</th>
                 </tr>
               </thead>
               <tbody>
@@ -188,11 +239,12 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
                 <tr>
@@ -200,11 +252,13 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
                 <tr>
@@ -212,11 +266,13 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
                 <tr>
@@ -224,11 +280,13 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
                 <tr>
@@ -236,11 +294,13 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
                 <tr>
@@ -248,11 +308,13 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
                 <tr>
@@ -260,11 +322,13 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
                 <tr>
@@ -272,95 +336,81 @@
                   <td class="text-center">xxxxx</td>
                   <td class="text-center">xxxxxx xxxxxx</td>
                   <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
+                  <td class="text-center"><span class="btn text-success material-symbols-outlined">
+                      select_check_box
+
+                    </span></td>
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
                       data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
-                    </button></td>
-                </tr>
-                <tr>
-                  <th scope="row">xx</th>
-                  <td class="text-center">xxxxx</td>
-                  <td class="text-center">xxxxxx xxxxxx</td>
-                  <td class="text-center">xxxxx</td>
-                  <td class="text-center">xx</td>
-                  <td class="text-center">xxxxxx</td>
-                  <td class="text-center"><button type="button" class="material-symbols-outlined btn text-success"
-                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                      archive
+                      block
                     </button></td>
                 </tr>
               </tbody>
             </table>
-
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-body m-3">
-                    <div class="modalContent">
-                      <h1 class="text-center text-success">
-                        <span class="material-symbols-outlined">
-                          archive
-                        </span>
-                      </h1>
-                      <h2 class="text-center">Send Clearance</h2>
-                      <p class="text-center">The patient will be sent to Billing Department. <br> Are you sure you want to send this?</p>
-
-                      <div class="d-flex justify-content-evenly mt-5">
-                        <button class="btn btn-light">Cancel</button>
-                        <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
-                          data-bs-target="#exampleModal2">
-                          Send
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <!-- Second Modal -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-body m-3">
-                    <div class="modalContent">
-                      <h1 class="text-center text-success">
-                        <span class="material-symbols-outlined">
-                          lock
-                        </span>
-                      </h1>
-                      <h2 class="text-center">Enter Password</h2>
-                      <p class="text-center">Password is required to save the input.</p>
-                      <div class="d-flex justify-content-evenly mt-5">
-                        <form class="row g-3">
-                          <div class="col-auto">
-                            <label for="inputPassword2" class="visually-hidden">Password</label>
-                            <input type="password" class="form-control text-success text-center" id="inputPassword2"
-                              placeholder="Password">
-                          </div>
-                          <div class="col-auto">
-                            <button type="submit" class="btn btn-success mb-3">Enter</button>
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
         </div>
+      </div>
 
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body m-3">
+              <div class="modalContent">
+                <h1 class="text-center text-success">
+                  <span class="material-symbols-outlined">
+                    cancel
+                  </span>
+                </h1>
+                <h2 class="text-center">Reject Request</h2>
+                <p class="text-center">Please indicate the reason why this request is rejected.</p>
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                <div class="d-flex justify-content-evenly mt-4">
+                  <button class="btn btn-light">Cancel</button>
+                  <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2">
+                    Send
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Second Modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body m-3">
+              <div class="modalContent">
+                <h1 class="text-center text-success">
+                  <span class="material-symbols-outlined">
+                    lock
+                  </span>
+                </h1>
+                <h2 class="text-center">Enter Password</h2>
+                <p class="text-center">Password is required to save the input.</p>
+                <div class="d-flex justify-content-evenly mt-5">
+                  <form class="row g-3">
+                    <div class="col-auto">
+                      <label for="inputPassword2" class="visually-hidden">Password</label>
+                      <input type="password" class="form-control text-success text-center" id="inputPassword2"
+                        placeholder="Password">
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-success mb-3">Enter</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

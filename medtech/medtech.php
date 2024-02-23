@@ -18,7 +18,7 @@
       <div class="position-absolute top-0 end-0 mt-3 me-3">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          + Add Patient
+          Send Result
         </button>
 
         <!-- Modal -->
@@ -255,9 +255,10 @@
                   <td class="text-center"><span class="btn text-success material-symbols-outlined">
                       select_check_box
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -268,9 +269,10 @@
                       select_check_box
 
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -281,9 +283,10 @@
                       select_check_box
 
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -294,9 +297,10 @@
                       select_check_box
 
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -307,9 +311,10 @@
                       select_check_box
 
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -320,9 +325,10 @@
                       select_check_box
 
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -333,9 +339,10 @@
                       select_check_box
 
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
                 <tr>
                   <th scope="row">xx</th>
@@ -346,9 +353,10 @@
                       select_check_box
 
                     </span></td>
-                  <td class="text-center"><span class="btn text-danger material-symbols-outlined">
+                  <td class="text-center"> <button type="button" class="material-symbols-outlined btn text-secondary"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       block
-                    </span></td>
+                    </button></td>
                 </tr>
               </tbody>
             </table>
@@ -356,7 +364,66 @@
         </div>
       </div>
 
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body m-3">
+              <div class="modalContent">
+                <h1 class="text-center text-success">
+                  <span class="material-symbols-outlined">
+                    cancel
+                  </span>
+                </h1>
+                <h2 class="text-center">Reject Request</h2>
+                <p class="text-center">Please indicate the reason why this request is rejected.</p>
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                <div class="d-flex justify-content-evenly mt-4">
+                  <button class="btn btn-light">Cancel</button>
+                  <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2">
+                    Send
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Second Modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body m-3">
+              <div class="modalContent">
+                <h1 class="text-center text-success">
+                  <span class="material-symbols-outlined">
+                    lock
+                  </span>
+                </h1>
+                <h2 class="text-center">Enter Password</h2>
+                <p class="text-center">Password is required to save the input.</p>
+                <div class="d-flex justify-content-evenly mt-5">
+                  <form class="row g-3">
+                    <div class="col-auto">
+                      <label for="inputPassword2" class="visually-hidden">Password</label>
+                      <input type="password" class="form-control text-success text-center" id="inputPassword2"
+                        placeholder="Password">
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-success mb-3">Enter</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

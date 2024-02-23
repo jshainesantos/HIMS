@@ -55,7 +55,7 @@
                             </svg>
 
                         </li>
-                        <p>MEDTECH NAME</p>
+                        <p>RADTECH NAME</p>
                         <li class="nav-item mt-5">
                             <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
                                 href="#">

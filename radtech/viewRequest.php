@@ -19,7 +19,7 @@
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">
-                    Send Result
+                    Request Service
                 </button>
 
                 <!-- Modal -->
@@ -122,7 +122,7 @@
                             </svg>
 
                         </li>
-                        <p>MEDTECH NAME</p>
+                        <p>RADTECH NAME</p>
                         <li class="nav-item mt-5">
                             <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
                                 href="#">
@@ -148,119 +148,139 @@
                 </div>
             </nav>
 
-            <div class="col-10  m-3 ms-5 mt-5 pt-4">
-                <div class="card mt-5 pe-0">
-                    <div class="card-body m-1">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="right d-flex">
-                                <ul class="nav nav-underline overflow-x-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-success" aria-current="page"
-                                            href="#">Chemistry</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Hematology</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">BB-IS</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Parasitogy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Microbiology</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Microscopy</a>
-                                    </li>
-                                </ul>
+            <div class="col-3 mt-5 pt-5">
+                <div class="d-flex">
+                    <div class="back-btn">
+                        <span class="btn"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_559_1453" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="40" height="40">
+                                    <rect width="40" height="40" fill="#D9D9D9" />
+                                </mask>
+                                <g mask="url(#mask0_559_1453)">
+                                    <path
+                                        d="M19.6693 21.6673H25.0026C25.4748 21.6673 25.8707 21.5076 26.1901 21.1882C26.5095 20.8687 26.6693 20.4729 26.6693 20.0007C26.6693 19.5284 26.5095 19.1326 26.1901 18.8132C25.8707 18.4937 25.4748 18.334 25.0026 18.334H19.6693L21.1693 16.834C21.4748 16.5284 21.6276 16.1395 21.6276 15.6673C21.6276 15.1951 21.4748 14.8062 21.1693 14.5007C20.8637 14.1951 20.4748 14.0423 20.0026 14.0423C19.5304 14.0423 19.1415 14.1951 18.8359 14.5007L14.5026 18.834C14.1693 19.1673 14.0026 19.5562 14.0026 20.0007C14.0026 20.4451 14.1693 20.834 14.5026 21.1673L18.8359 25.5007C19.1415 25.8062 19.5304 25.959 20.0026 25.959C20.4748 25.959 20.8637 25.8062 21.1693 25.5007C21.4748 25.1951 21.6276 24.8062 21.6276 24.334C21.6276 23.8618 21.4748 23.4729 21.1693 23.1673L19.6693 21.6673ZM20.0026 36.6673C17.697 36.6673 15.5304 36.2298 13.5026 35.3548C11.4748 34.4798 9.71094 33.2923 8.21094 31.7923C6.71094 30.2923 5.52344 28.5284 4.64844 26.5007C3.77344 24.4729 3.33594 22.3062 3.33594 20.0007C3.33594 17.6951 3.77344 15.5284 4.64844 13.5007C5.52344 11.4729 6.71094 9.70898 8.21094 8.20898C9.71094 6.70898 11.4748 5.52148 13.5026 4.64648C15.5304 3.77148 17.697 3.33398 20.0026 3.33398C22.3082 3.33398 24.4748 3.77148 26.5026 4.64648C28.5304 5.52148 30.2943 6.70898 31.7943 8.20898C33.2943 9.70898 34.4818 11.4729 35.3568 13.5007C36.2318 15.5284 36.6693 17.6951 36.6693 20.0007C36.6693 22.3062 36.2318 24.4729 35.3568 26.5007C34.4818 28.5284 33.2943 30.2923 31.7943 31.7923C30.2943 33.2923 28.5304 34.4798 26.5026 35.3548C24.4748 36.2298 22.3082 36.6673 20.0026 36.6673Z"
+                                        fill="#418363" />
+                                </g>
+                            </svg></span>
+                    </div>
+
+                    <div class="bg-light rounded-bottom-4">
+                        <div class="card-body bg-success bg-opacity-25 rounded-4 p-5">
+                            <h3 class="fw-bold">Bob G. Cruz</h3>
+                            <h6 class="fw-bold">123ABC</h6>
+                            <div class="d-flex">
+                                <p class="fw-bold me-5 pe-5">23</p>
+                                <p class="fw-bold">Female</p>
                             </div>
                         </div>
-                        <table class="table table-striped mt-3 Add">
-                            <thead>
-                                <tr>
-                                    <th scope="col">File Name</th>
-                                    <th class="text-center" scope="col">Patient ID</th>
-                                    <th class="text-center" scope="col">Patient Name</th>
-                                    <th class="text-center" scope="col">Date Performed</th>
-                                    <th class="text-center" scope="col">Time Performed</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><span class="btn text-success material-symbols-outlined">
-                                            description
-                                        </span></th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xx</td>
-                                </tr>
-                            </tbody>
-                        </table>
+
+                        <div class="bottom">
+                            <h5 class="fw-bold ms-4 mt-4">Request</h5>
+                            <div class="infos px-4">
+                                <div class="d-flex">
+                                    <p>Type of Service:</p>
+                                    <p></p>
+                                </div>
+                                <div class="d-flex">
+                                    <p>Type of Test:</p>
+                                    <p></p>
+                                </div>
+                                <div class="d-flex">
+                                    <p>Date:</p>
+                                    <p></p>
+                                </div>
+                                <div class="d-flex">
+                                    <p>Time:</p>
+                                    <p></p>
+                                </div>
+
+                                <div class="submit text-end text-secondary mb-3">
+                                    <small>Requested by:</small>
+                                    <small>Details</small>
+                                    <br>
+                                    <small>Date and time submitted:</small>
+                                    <small>Details</small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 mt-5">
+                <div class="card mt-5 pe-0 shadow rounded-4 bg-light">
+                    <div class="row overflow-auto mx-4" style="max-height: 37rem;">
+
+                        <!-- Patient Complete History -->
+                        <div class="row g-0">
+                            <h5 class="mt-3">Patient Complete History</h5>
+                            <div class="col-6 col-md-4 mt-3">Complete History:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Past Medical History:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Previous History:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Family History:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Personal/Social History:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">For Obsterical History:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Pedriatic Medical History:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Review of Systems:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Clinical Impression:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Work Up:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <h6 class="mt-5">Current Medications</h6>
+                            <div class="col-6 col-md-4 mt-3">Name of Medication and dosage:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0">
+                            <div class="col-6 col-md-4 mt-3">Frequency:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
+                        <div class="row g-0 mb-4">
+                            <div class="col-6 col-md-4 mt-3">Prescribing Physician:</div>
+                            <div class="col-sm-6 col-md-8 mt-3">Details</div>
+                        </div>
+
                     </div>
                 </div>
             </div>
