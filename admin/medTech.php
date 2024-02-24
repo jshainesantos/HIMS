@@ -94,7 +94,7 @@
                 <div class="position-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item mt-3">
-                            <a class="mt-5 btn p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
+                            <a class="mt-1 btn p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
                                 href="#">
                                 <svg width="65" height="90" viewBox="0 0 65 90" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -109,29 +109,43 @@
                             </a>
                         </li>
 
-                        <li class="nav-item mt-5">
+                        <li class="nav-item mt-4">
                             <svg width="60" height="60" viewBox="0 0 65 65" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="32.5" cy="32.5" r="32.5" fill="#C9E4CB" />
                             </svg>
 
                         </li>
-                        <p>STAFF NAME</p>
-                        <li class="nav-item mt-5">
-                            <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
-                                href="#">
-                                event_available
-                            </a>
-                        </li>
-                        <p>Admission</p>
+                        <p>NURSE NAME</p>
                         <li class="nav-item mt-4">
                             <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
                                 href="#">
-                                clinical_notes
+                                stethoscope
                             </a>
                         </li>
-                        <p>Patients</p>
-                        <li class="nav-item my-5 pt-3">
+                        <p>Doctor</p>
+                        <li class="nav-item mt-2">
+                            <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
+                                href="#">
+                                lda
+                            </a>
+                        </li>
+                        <p>Nurse</p>
+                        <li class="nav-item mt-2">
+                            <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
+                                href="#">
+                                experiment
+                            </a>
+                        </li>
+                        <p>Medtech</p>
+                        <li class="nav-item mt-2">
+                            <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
+                                href="#">
+                                rib_cage
+                            </a>
+                        </li>
+                        <p>Radtech</p>
+                        <li class="nav-item my-3 pt-2">
                             <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
                                 href="#">
                                 logout
@@ -141,7 +155,6 @@
                     </ul>
                 </div>
             </nav>
-
 
             <div class="col-10  m-3 ms-5 mt-5 pt-4">
                 <div class="up-table d-flex justify-content-between">
