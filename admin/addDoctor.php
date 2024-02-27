@@ -26,7 +26,7 @@
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" style="max-width:55rem;">
-                        <div class="modal-content">
+                        <div class="modal-content rounded-4">
                             <div class="modal-body">
                                 <div class="modalContent m-5 row">
                                     <h1 class="text-center fw-bold">Add Specialist</h1>
@@ -160,7 +160,7 @@
 
             <div class="col-10 mt-3 pt-4 mx-auto">
                 <h4 class="fw-bold">Add Doctor</h4>
-                <div class="card shadow bg-light bg-opacity-25">
+                <div class="card shadow bg-light bg-opacity-25 rounded-4">
                     <div class="card-body m-2">
                         <h6 class="text-success">Doctor Information</h6>
                         <div class="row mt-4">
@@ -259,7 +259,7 @@
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
+                                <div class="modal-content rounded-4">
                                     <div class="modal-body m-3">
                                         <div class="modalContent">
                                             <h1 class="text-center text-success">
@@ -291,7 +291,7 @@
                         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
+                                <div class="modal-content rounded-4">
                                     <div class="modal-body m-3">
                                         <div class="modalContent">
                                             <h1 class="text-center text-success">

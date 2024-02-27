@@ -26,7 +26,7 @@
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" style="max-width:55rem;">
-                        <div class="modal-content">
+                        <div class="modal-content rounded-4">
                             <div class="modal-body">
                                 <div class="modalContent m-5 row">
                                     <h1 class="text-center fw-bold">Add Specialist</h1>
@@ -154,9 +154,9 @@
           <h4 class="fw-bold">Doctor</h4>
           <div class="right d-flex">
             <form role="search">
-              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control rounded-3" type="search" placeholder="Search" aria-label="Search">
             </form>
-            <select class="ms-2 form-select form-select-sm" aria-label="Small select example">
+            <select class="ms-2 form-select form-select-sm rounded-3" aria-label="Small select example">
               <option selected>Order by</option>
               <option value="1">One</option>
               <option value="2">Two</option>
@@ -166,7 +166,7 @@
         </div>
 
 
-        <div class="card mt-4">
+        <div class="card mt-4 rounded-4">
           <div class="card-body m-1">
             <table class="table table-striped">
               <thead>

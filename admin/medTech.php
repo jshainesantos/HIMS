@@ -26,7 +26,7 @@
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" style="max-width:55rem;">
-                        <div class="modal-content">
+                        <div class="modal-content rounded-4">
                             <div class="modal-body">
                                 <div class="modalContent m-5 row">
                                     <h1 class="text-center fw-bold">Add Specialist</h1>
@@ -174,7 +174,7 @@
                 </div>
 
 
-                <div class="card mt-4">
+                <div class="card mt-4 rounded-4">
                     <div class="card-body m-1">
                         <table class="table table-striped">
                             <thead>

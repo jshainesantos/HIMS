@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -30,7 +30,7 @@
       <nav id="sidebar" class="col-lg-1 bg-success text-white rounded-end-5 text-center">
         <div class="position-sticky">
           <ul class="nav flex-column">
-            <li class="nav-item mt-3">
+            <li class="nav-item ">
               <a class="mt-5 btn p-2 text-dark bg-opacity-25 material-symbols-outlined text-white" href="#">
                 <svg width="65" height="90" viewBox="0 0 65 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -74,8 +74,8 @@
       </nav>
 
       <div class="col-10 m-3 ms-5 mt-4 pt-4 mx-auto">
-        <h5>Add Patient</h5>
-        <div class="card shadow">
+        <h4 class="fw-bold">Add Patient</h4>
+        <div class="card rounded-4 shadow">
           <div class="card-body m-1">
             <div class="row">
               <div class="col">
@@ -123,9 +123,9 @@
                 <h6 class="text-success">ㅤ</h6>
                 <div class="row g-3">
                   <div class="col-sm-7">
-                  <form class="form-floating">
+                    <form class="form-floating">
                       <input type="text" class="form-control bg-light" placeholder="">
-                      
+
                       <label for="floatingInputValue">Birth Date</label>
                     </form>
                   </div>
@@ -136,16 +136,16 @@
                     </form>
                   </div>
                   <div class="col-sm">
-                  <form class="form-floating">
+                    <form class="form-floating">
                       <input type="text" class="form-control bg-light" placeholder="">
                       <label for="floatingInputValue">Sex</label>
                     </form>
                   </div>
                 </div>
                 <form class="form-floating my-3">
-                      <input type="text" class="form-control bg-light" placeholder="">
-                      <label for="floatingInputValue">Age</label>
-                    </form>
+                  <input type="text" class="form-control bg-light" placeholder="">
+                  <label for="floatingInputValue">Age</label>
+                </form>
 
                 <h6 class="text-success">ㅤ</h6>
                 <form class="form-floating">
@@ -181,75 +181,78 @@
                 </div>
 
                 <!-- Buttons -->
-            <div class="buttons mt-4 float-end">
-              <button class="btn btn-light">
-                Cancel
-              </button>
+                <div class="buttons mt-4 float-end">
+                  <button class="btn btn-light">
+                    Cancel
+                  </button>
 
-              <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Submit
-              </button>
-            </div>
+                  <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Submit
+                  </button>
+                </div>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-body m-3">
-                    <div class="modalContent">
-                      <h1 class="text-center text-success">
-                        <span class="material-symbols-outlined">
-                          error
-                        </span>
-                      </h1>
-                      <h2 class="text-center">Confirm Submission?</h2>
-                      <p class="text-center">The information entered in this form will be saved. <br> Are you sure you
-                        want to save this?</p>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content rounded-4">
+                      <div class="modal-body m-3">
+                        <div class="modalContent">
+                          <h1 class="text-center text-success">
+                            <span class="material-symbols-outlined">
+                              error
+                            </span>
+                          </h1>
+                          <h2 class="text-center">Confirm Submission?</h2>
+                          <p class="text-center">The information entered in this form will be saved. <br> Are you sure
+                            you
+                            want to save this?</p>
 
-                      <div class="d-flex justify-content-evenly mt-5">
-                        <button class="btn btn-light">Cancel</button>
-                        <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
-                          data-bs-target="#exampleModal2">
-                          Save
-                        </button>
+                          <div class="d-flex justify-content-evenly mt-5">
+                            <button class="btn btn-light">Cancel</button>
+                            <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal2">
+                              Save
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <!-- Second Modal -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-body m-3">
-                    <div class="modalContent">
-                      <h1 class="text-center text-success">
-                        <span class="material-symbols-outlined">
-                          lock
-                        </span>
-                      </h1>
-                      <h2 class="text-center">Enter Password</h2>
-                      <p class="text-center">Password is required to save the input.</p>
-                      <div class="d-flex justify-content-evenly mt-5">
-                        <form class="row g-3">
-                          <div class="col-auto">
-                            <label for="inputPassword2" class="visually-hidden">Password</label>
-                            <input type="password" class="form-control text-success text-center" id="inputPassword2" placeholder="Password">
+                <!-- Second Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content rounded-4">
+                      <div class="modal-body m-3">
+                        <div class="modalContent">
+                          <h1 class="text-center text-success">
+                            <span class="material-symbols-outlined">
+                              lock
+                            </span>
+                          </h1>
+                          <h2 class="text-center">Enter Password</h2>
+                          <p class="text-center">Password is required to save the input.</p>
+                          <div class="d-flex justify-content-evenly mt-5">
+                            <form class="row g-3">
+                              <div class="col-auto">
+                                <label for="inputPassword2" class="visually-hidden">Password</label>
+                                <input type="password" class="form-control text-success text-center" id="inputPassword2"
+                                  placeholder="Password">
+                              </div>
+                              <div class="col-auto">
+                                <button type="submit" class="btn btn-success mb-3">Enter</button>
+                              </div>
+                            </form>
                           </div>
-                          <div class="col-auto">
-                            <button type="submit" class="btn btn-success mb-3">Enter</button>
-                          </div>
-                        </form>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
               </div>
             </div>
