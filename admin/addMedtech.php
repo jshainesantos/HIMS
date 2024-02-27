@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -25,14 +25,15 @@
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-dialog modal-dialog-centered" style="max-width:55rem;">
                         <div class="modal-content">
                             <div class="modal-body">
                                 <div class="modalContent m-5 row">
-                                    <h1 class="text-center">Add Specialist</h1>
+                                    <h1 class="text-center fw-bold">Add Specialist</h1>
                                     <p class="text-center">Choose which specialist you wish to add.</p>
-                                    <div class="col">
-                                        <div class="card mt-2">
+                                    
+                                    <div class="col mt-2">
+                                        <div class="card">
                                             <div class="btn card-body bg-success bg-opacity-75 text-center">
                                                 <span class="material-symbols-outlined fs-1 text-light">
                                                     stethoscope
@@ -41,8 +42,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="card mt-2">
+                                    <div class="col mt-2">
+                                        <div class="card">
                                             <div class="btn card-body bg-success bg-opacity-75 text-center">
                                                 <span class="material-symbols-outlined fs-1 text-light">
                                                     lda
@@ -51,8 +52,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="card mt-3">
+                                    <div class="col mt-2">
+                                        <div class="card">
                                             <div class="btn card-body bg-success bg-opacity-75 text-center">
                                                 <span class="material-symbols-outlined fs-1 text-light">
                                                     experiment
@@ -61,8 +62,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="card mt-3">
+                                    <div class="col mt-2">
+                                        <div class="card">
                                             <div class="btn card-body bg-success bg-opacity-75 text-center">
                                                 <span class="material-symbols-outlined fs-1 text-light">
                                                     rib_cage
@@ -116,7 +117,7 @@
                             </svg>
 
                         </li>
-                        <p>NURSE NAME</p>
+                        <p>STAFF NAME</p>
                         <li class="nav-item mt-4">
                             <a class="btn bg-light p-2 text-dark bg-opacity-25 material-symbols-outlined text-white"
                                 href="#">
@@ -158,7 +159,7 @@
 
 
             <div class="col-10 mt-3 pt-4 mx-auto">
-                <h5>Add Medical Technologist</h5>
+                <h4 class="fw-bold">Add Medical Technologist</h4>
                 <div class="card shadow bg-light bg-opacity-25">
                     <div class="card-body m-2">
                         <h6 class="text-success">Medical Technologist Information</h6>
@@ -222,7 +223,8 @@
                                             description
                                         </span>
                                         <div class="ms-2 right mt-3">
-                                            <p class="lh-sm">Medtech-Students-3.xls <br> <small class="text-danger">Upload
+                                            <p class="lh-sm">Medtech-Students-3.xls <br> <small
+                                                    class="text-danger">Upload
                                                     Failed</small></p>
                                         </div>
                                     </div>
