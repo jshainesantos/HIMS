@@ -31,7 +31,7 @@
                   <p class="text-center">is the patient inpatient or outpatient?</p>
                   <div class="col">
                     <div class="card">
-                      <div class="card-body bg-success bg-opacity-75 text-center">
+                      <div class="btn card-body bg-success bg-opacity-75 text-center">
                         <h1><svg width="70" height="70" viewBox="0 0 70 70" fill="none"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect width="70" height="70" fill="url(#pattern0)" />
@@ -50,7 +50,7 @@
                   </div>
                   <div class="col">
                     <div class="card">
-                      <div class="card-body bg-success bg-opacity-75 text-center">
+                      <div class="btn card-body bg-success bg-opacity-75 text-center">
                         <h1><svg width="70" height="70" viewBox="0 0 70 70" fill="none"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect width="70" height="70" fill="url(#pattern0)" />

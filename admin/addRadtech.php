@@ -16,8 +16,8 @@
     <div class="container-fluid">
         <div class="topContent">
             <div class="position-absolute top-0 end-0 mt-3 me-3">
-                   <!-- Button trigger modal -->
-                   <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">
                     + Add Specialist
                 </button>
@@ -156,94 +156,170 @@
                 </div>
             </nav>
 
-            <div class="col-10  m-3 ms-5 mt-5 pt-4">
-                <div class="up-table d-flex justify-content-between">
-                    <h4>Medical Technologist</h4>
-                    <div class="right d-flex">
-                        <form role="search">
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                        </form>
-                        <select class="ms-2 form-select form-select-sm" aria-label="Small select example">
-                            <option selected>Order by</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+
+            <div class="col-10 mt-3 pt-4 mx-auto">
+                <h5>Add Radiological Technologist</h5>
+                <div class="card shadow bg-light bg-opacity-25">
+                    <div class="card-body m-2">
+                        <h6 class="text-success">Radiological Technologist Information</h6>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <form class="form-floating">
+                                    <input type="text" class="form-control bg-light" placeholder="">
+                                    <label for="floatingInputValue">Name</label>
+                                </form>
+                            </div>
+                            <div class="col">
+                                <form class="form-floating">
+                                    <input type="text" class="form-control bg-light" placeholder="">
+                                    <label for="floatingInputValue">HAU Email</label>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <form class="form-floating">
+                                    <input type="text" class="form-control bg-light" placeholder="">
+                                    <label for="floatingInputValue">Student Number</label>
+                                </form>
+                            </div>
+                        </div>
+
+
+                        <h6 class="text-success mt-5">Upload Excel File</h6>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body text-center bg-light">
+                                        <span class="material-symbols-outlined fs-1 text-success">
+                                            description
+                                        </span>
+                                        <p>Drag & drop your file here or</p>
+                                        <div class="btn btn-success">Choose File</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card bg-light">
+                                    <div class="ms-2 d-flex align-items-center">
+                                        <span class="material-symbols-outlined text-success fs-1">
+                                            description
+                                        </span>
+                                        <div class="ms-2 right mt-3">
+                                            <p class="lh-sm">Radtech-Students-3.xls <br> <small>32.9 mb | 53% | 2 secs
+                                                    left</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="progress mx-3 mb-2" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-success" style="width: 25%"></div>
+                                    </div>
+                                </div>
+                                <div class="card mt-3  bg-light">
+                                    <div class="ms-2 d-flex align-items-center">
+                                        <span class="material-symbols-outlined text-success fs-1">
+                                            description
+                                        </span>
+                                        <div class="ms-2 right mt-3">
+                                            <p class="lh-sm">Radtech-Students-3.xls <br> <small class="text-danger">Upload
+                                                    Failed</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-3  bg-light">
+                                    <div class="ms-2 d-flex align-items-center">
+                                        <span class="material-symbols-outlined text-success fs-1">
+                                            description
+                                        </span>
+                                        <div class="ms-2 right mt-3">
+                                            <p class="lh-sm">Radtech-Students-3.xls <br> <small>42.9 mb</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="buttons mt-4 float-end">
+                            <button class="btn btn-light">
+                                Cancel
+                            </button>
+
+                            <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">
+                                Submit
+                            </button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body m-3">
+                                        <div class="modalContent">
+                                            <h1 class="text-center text-success">
+                                                <span class="material-symbols-outlined">
+                                                    error
+                                                </span>
+                                            </h1>
+                                            <h2 class="text-center">Confirm Submission?</h2>
+                                            <p class="text-center">The information entered in this form will be saved.
+                                                <br> Are you sure you
+                                                want to save this?
+                                            </p>
+
+                                            <div class="d-flex justify-content-evenly mt-5">
+                                                <button class="btn btn-light">Cancel</button>
+                                                <button type="button" class="btn btn-success ms-2"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                    Submit
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Second Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body m-3">
+                                        <div class="modalContent">
+                                            <h1 class="text-center text-success">
+                                                <span class="material-symbols-outlined">
+                                                    lock
+                                                </span>
+                                            </h1>
+                                            <h2 class="text-center">Enter Password</h2>
+                                            <p class="text-center">Password is required to save the input.</p>
+                                            <div class="d-flex justify-content-evenly mt-5">
+                                                <form class="row g-3">
+                                                    <div class="col-auto">
+                                                        <label for="inputPassword2"
+                                                            class="visually-hidden">Password</label>
+                                                        <input type="password"
+                                                            class="form-control text-success text-center"
+                                                            id="inputPassword2" placeholder="Password">
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <button type="submit"
+                                                            class="btn btn-success mb-3">Enter</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
-                <div class="card mt-4">
-                    <div class="card-body m-1">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Medical Technologist ID</th>
-                                    <th class="text-center" scope="col">Name</th>
-                                    <th class="text-center" scope="col">Student Number</th>
-                                    <th class="text-center" scope="col">HAU Email</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">xx</th>
-                                    <td class="text-center">xxxxx</td>
-                                    <td class="text-center">xxxxxx xxxxxx</td>
-                                    <td class="text-center">xxxxx</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
