@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -86,12 +86,12 @@
                     <h1>ㅤ</h1>
                     <div class="right">
                         <form role="search">
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control rounded-3" type="search" placeholder="Search" aria-label="Search">
                         </form>
                     </div>
                 </div>
 
-                <div class="card mt-3">
+                <div class="card rounded-4 mt-3">
                     <div class="card-body m-1">
                         <table class="table table-striped">
                             <thead>
@@ -213,7 +213,7 @@
 
         </div>
 
-        
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

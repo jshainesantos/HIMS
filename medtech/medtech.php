@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -24,7 +24,7 @@
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content rounded-4">
               <div class="modal-body">
                 <div class="modalContent m-5 row">
                   <h1 class="text-center">Add Patient</h1>
@@ -136,7 +136,7 @@
 
         <div class="col-12">
           <div class="p-1">
-            <div class="py-4 mb-2 card shadow bg-light text-secondary">
+            <div class="py-4 mb-2 card rounded-4 shadow bg-light text-secondary">
               <div class="card-body">
                 <div class="row">
                   <div class="col text-center">
@@ -154,11 +154,11 @@
         <div class="row g-2 text-center">
           <div class="col-6">
             <div class="p-1">
-              <div class="py-2 card shadow bg-light text-secondary">
+              <div class="py-2 card rounded-4 shadow bg-light text-secondary">
                 <div class="card-body">
-                  <span class="material-symbols-outlined fs-1">
-                    science
-                  </span>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/9bac/78be/6e790b3353daca365650badd218a49cc?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ARFPU0xeGGEusdVoEQsRb~TjOs27OUtGicEjLK6ednDe5kuOgrLaqSv8TW910c4-Z-rxOLPaSOKN0GHUqWhmsPPlL45da2MsAXqz~DmDxCWfRRvb1bHOtvlaZJbkyc7pP4tBCXL1irKBdP1yLxdhxaQHjC5u719whxQ~hjdXoYqn0AbHL5wpa3BHMC4TIJ7mHTO1uBKEi-MpErydmcocVBdH7DD2nKC7hJFuRK8qHw6dLZKUxBL7uZrSdsMiWiZm4CgF0xAQEWVA4FqNFo09I3kdydOVI-vpck1UyKjaza2r~sUFIJR1bG7ERRJF0IbvMRvM2gXF8jbWXb52rE8Luw__"
+                    alt="inpatient" style="height:3rem; width:3rem;">
                   <p class="fw-bold">Chemistry</p>
                 </div>
               </div>
@@ -167,11 +167,11 @@
 
           <div class="col-6">
             <div class="p-1">
-              <div class="py-2 card shadow bg-light text-secondary">
+              <div class="py-2 card rounded-4 shadow bg-light text-secondary">
                 <div class="card-body">
-                  <span class="material-symbols-outlined fs-1">
-                    hematology
-                  </span>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/5e24/8d96/238a70d4d6ab2b0c5ba885097c68a027?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ivv-x3a3AGY1LjR67filKrNZlxCpfiSphTiUs9Cz-2gE~GF3JJ8JaALPxS7YpZyOj6tVE~Auo0QwV6qfa1IJjAsSWxZMDknUHN7GLC-SSQhQKgj5SbsX6w7u~KwQuR3fWBv463gPueWABQV~AdvtrLteqXkqOnpizO0Nhz5GD9i~ut4p833QGEWPbctqBAyWNQDBOvj0G6OHDtxfY8F1mzkQ1E-R2VRtZ1LPYBrlPqPi8zfMvo9SPlQIifT7cDLXSru8yUMZ51VIuRgb0sErES4YC6DZuMTFxY1yhml-ZKkuqmLLTQG9OhLaWLgo7KAQ5PgwKM0nZG7SZu0s9ItiDw__"
+                    alt="inpatient" style="height:3rem; width:3rem;">
                   <p class="fw-bold">Hematology</p>
                 </div>
               </div>
@@ -180,10 +180,10 @@
 
           <div class="col-6">
             <div class="p-1">
-              <div class="py-2 card shadow bg-light text-secondary">
+              <div class="py-2 card rounded-4 shadow bg-light text-secondary">
                 <div class="card-body">
-                  <span class="material-symbols-outlined fs-1">
-                    labs
+                  <span class="material-symbols-outlined fs-1 text-dark text-opacity-75">
+                    lab_panel
                   </span>
                   <p class="fw-bold">BB-IS</p>
                 </div>
@@ -193,11 +193,13 @@
 
           <div class="col-6">
             <div class="p-1">
-              <div class="py-2 btn card shadow bg-success bg-opacity-25">
+              <div class="py-2 btn card rounded-4 shadow bg-success bg-opacity-25">
                 <div class="card-body">
-                  <span class="material-symbols-outlined fs-1">
-                    immunology
-                  </span>
+                  <img
+                  class="ms-5"
+                    src="https://s3-alpha-sig.figma.com/img/3544/a87f/809c63dc4cbeee0d53c534234ef313b0?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZmEM2WXDbEq9N0gQ~OOOuxDPF9NIv2~Xd0MZkoHU3~qhCwUMZrBZYi6IxHpeLz-IHALlBh4MT~~yee9kg0xJhTI2TnKxsGlOjqPmRSvafd9nZVuI9fKxj4oqYpsS~Afx1LM9DoqAEKqtyOColyBUVbNkYoqr9rGSf6Ic1BESgiPkgvBY16WAneOir1gPAUsZofwBBKgM5writDQV26RwKLzsi6qt8LdZ~e269-u04YezopN0SfxJmJqSQRtRsrC0CLwgujV7-Dx417PIWUs~cxZ-0WYw1RVzMZHUAVuhwv3IUe989JRTFp4QNUUMn1EOWxJ1Hw3E3ql5Siy7EvJEpQ__"
+                    alt="inpatient" style="height:3rem; width:3rem;">
+                  <small class="float-end fw-bold text-success mx-0">15 Patients</small>
                   <p class="fw-bold">Parasitology</p>
                 </div>
               </div>
@@ -206,9 +208,9 @@
 
           <div class="col-6">
             <div class="p-1">
-              <div class="py-2 card shadow bg-light text-secondary">
+              <div class="py-2 card rounded-4 shadow bg-light text-secondary">
                 <div class="card-body">
-                  <span class="material-symbols-outlined fs-1">
+                  <span class="material-symbols-outlined fs-1 text-dark text-opacity-75">
                     microbiology
                   </span>
                   <p class="fw-bold">Microbology</p>
@@ -219,11 +221,11 @@
 
           <div class="col-6">
             <div class="p-1">
-              <div class="py-2 card shadow bg-light text-secondary">
+              <div class="py-2 card rounded-4 shadow bg-light text-secondary">
                 <div class="card-body">
-                  <span class="material-symbols-outlined fs-1">
-                    biotech
-                  </span>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/42c8/3f61/38d403d3379d993e45ff5a814c068078?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Y~idd53HdHZzh2zINaq-cCwVWMPpuM1bOi3ekIDrkTRuAaTb0YL-1Rlcb85Yn5H3a-yO-lbFuynupZEqQXeWUahqjDYGll6Bs9Vgn023OS7H98JIAmTp-kVUzTSW8bXws~wU263RlzTnPiLtOR4hj0X67fqxaev7YI8bP-N6v1-M23bF8T1fi-3KNGnGtQwpCcKMavCUo5G~98QgsDKWwzm04hG~sGK7C33Zt4GCGBYHD0XPCe40nX9IcVkxGir9bQi~Y9flDw6h0ftkTkjQA5RxPCySqnsuhjSWicCcrfFGXHnyHunNcCkmBsR-acvmPdxwCX-ANDcGGC9M24npHA__"
+                    alt="inpatient" style="height:3rem; width:3rem;">
                   <p class="fw-bold">Microscopy</p>
                 </div>
               </div>
@@ -234,7 +236,7 @@
       </div>
 
       <div class="col-6 mt-5">
-        <div class="card mt-5 pe-0">
+        <div class="card rounded-4 mt-5 pe-0">
           <div class="card-body m-1">
             <h4>New Requests</h4>
             <table class="table table-striped mt-3 Add">
@@ -367,7 +369,7 @@
       <!-- Modal -->
       <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content rounded-4">
             <div class="modal-body m-3">
               <div class="modalContent">
                 <h1 class="text-center text-success">
@@ -395,7 +397,7 @@
       <!-- Second Modal -->
       <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content rounded-4">
             <div class="modal-body m-3">
               <div class="modalContent">
                 <h1 class="text-center text-success">

@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -215,7 +215,8 @@
 
                         <!-- Patient Complete History -->
                         <div class="row g-0">
-                            <h5 class="mt-3">Patient Complete History</h5>
+                            <h5 class="mt-3 fw-bold">Patient Complete History</h5>
+                            <h6 class="mt-3 fw-bold">Medical History</h6>
                             <div class="col-6 col-md-4 mt-3">Complete History:</div>
                             <div class="col-sm-6 col-md-8 mt-3">Details</div>
                         </div>
@@ -266,7 +267,7 @@
                         </div>
 
                         <div class="row g-0">
-                            <h6 class="mt-5">Current Medications</h6>
+                            <h6 class="mt-5 fw-bold">Current Medications</h6>
                             <div class="col-6 col-md-4 mt-3">Name of Medication and dosage:</div>
                             <div class="col-sm-6 col-md-8 mt-3">Details</div>
                         </div>
@@ -282,7 +283,7 @@
                         </div>
 
                         <div class="row g-0 mt-4">
-                            <h5>Laboratory Results</h5>
+                            <h5 class="fw-bold">Laboratory Results</h5>
                         </div>
 
                         <ul class="nav nav-underline overflow-x-auto">

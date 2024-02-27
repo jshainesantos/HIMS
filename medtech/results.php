@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -149,7 +149,7 @@
             </nav>
 
             <div class="col-10  m-3 ms-5 mt-5 pt-4">
-                <div class="card mt-5 pe-0">
+                <div class="card rounded-4 mt-5 pe-0">
                     <div class="card-body m-1">
                         <div class="d-flex justify-content-between mb-4">
                             <div class="right d-flex">
