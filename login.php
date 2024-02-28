@@ -14,7 +14,7 @@
 
   <div class="container-fluid vh-100 d-flex justify-content-center align-items-center bg-success bg-opacity-75">
     <div class="col-8">
-      <div class="card shadow p-5">
+      <div class="card rounded-4 shadow p-5">
         <div class="card-body p-3">
           <div class="row">
             <div class="col-6">

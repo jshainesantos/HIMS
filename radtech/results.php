@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -16,73 +16,7 @@
     <div class="container-fluid">
         <div class="topContent">
             <div class="position-absolute top-0 end-0 mt-3 me-3">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Send Result
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="modalContent m-5 row">
-                                    <h1 class="text-center">Add Patient</h1>
-                                    <p class="text-center">is the patient inpatient or outpatient?</p>
-                                    <div class="col">
-                                        <div class="card">
-                                            <div class="card-body bg-success bg-opacity-75 text-center">
-                                                <h1><svg width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                        <rect width="70" height="70" fill="url(#pattern0)" />
-                                                        <defs>
-                                                            <pattern id="pattern0"
-                                                                patternContentUnits="objectBoundingBox" width="1"
-                                                                height="1">
-                                                                <use xlink:href="#image0_1132_22539"
-                                                                    transform="scale(0.0078125)" />
-                                                            </pattern>
-                                                            <image id="image0_1132_22539" width="128" height="128"
-                                                                xlink:href="data:image/png;base64,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" />
-                                                        </defs>
-                                                    </svg>
-                                                </h1>
-                                                <h3 class="text-light">Inpatient</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card">
-                                            <div class="card-body bg-success bg-opacity-75 text-center">
-                                                <h1><svg width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                        <rect width="70" height="70" fill="url(#pattern0)" />
-                                                        <defs>
-                                                            <pattern id="pattern0"
-                                                                patternContentUnits="objectBoundingBox" width="1"
-                                                                height="1">
-                                                                <use xlink:href="#image0_1132_22543"
-                                                                    transform="scale(0.0078125)" />
-                                                            </pattern>
-                                                            <image id="image0_1132_22543" width="128" height="128"
-                                                                xlink:href="data:image/png;base64,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" />
-                                                        </defs>
-                                                    </svg>
-                                                </h1>
-                                                <h3 class="text-light">Outpatient</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+               
                 <button class="btn btn-light"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -149,23 +83,34 @@
             </nav>
 
             <div class="col-10  m-3 ms-5 mt-5 pt-4">
-                <div class="card mt-5 pe-0">
+                <div class="d-flex justify-content-between">
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" aria-current="page" href="#">X-Ray</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Ultrasound Procedures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">CT-Scan Proceduress</a>
+                        </li>
+                    </ul>
+                    <div class="right d-flex">
+                        <form role="search">
+                            <input class="form-control rounded-3" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <select class="ms-2 form-select form-select-sm rounded-3" aria-label="Small select example">
+                            <option selected>Order by</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="card rounded-4 mt-4 pe-0">
                     <div class="card-body m-1">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="right d-flex">
-                                <ul class="nav nav-underline overflow-x-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-success" aria-current="page" href="#">X-Ray</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">Ultrasound Procedures</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" href="#">CT-Scan Procedures</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <table class="table table-striped mt-3 Add">
                             <thead>
                                 <tr>

@@ -16,67 +16,7 @@
     <div class="container-fluid">
         <div class="topContent">
             <div class="position-absolute top-0 end-0 mt-3 me-3">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    + Add Specialist
-                </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" style="max-width:55rem;">
-                        <div class="modal-content rounded-4">
-                            <div class="modal-body">
-                                <div class="modalContent m-5 row">
-                                    <h1 class="text-center fw-bold">Add Specialist</h1>
-                                    <p class="text-center">Choose which specialist you wish to add.</p>
-                                    
-                                    <div class="col mt-2">
-                                        <div class="card">
-                                            <div class="btn card-body bg-success bg-opacity-75 text-center">
-                                                <span class="material-symbols-outlined fs-1 text-light">
-                                                    stethoscope
-                                                </span>
-                                                <h3 class="text-light">Doctor</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mt-2">
-                                        <div class="card">
-                                            <div class="btn card-body bg-success bg-opacity-75 text-center">
-                                                <span class="material-symbols-outlined fs-1 text-light">
-                                                    lda
-                                                </span>
-                                                <h3 class="text-light">Nurse</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mt-2">
-                                        <div class="card">
-                                            <div class="btn card-body bg-success bg-opacity-75 text-center">
-                                                <span class="material-symbols-outlined fs-1 text-light">
-                                                    experiment
-                                                </span>
-                                                <h3 class="text-light">Medtech</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mt-2">
-                                        <div class="card">
-                                            <div class="btn card-body bg-success bg-opacity-75 text-center">
-                                                <span class="material-symbols-outlined fs-1 text-light">
-                                                    rib_cage
-                                                </span>
-                                                <h3 class="text-light">Radtech</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <button class="btn btn-light"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
