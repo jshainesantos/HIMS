@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../../style.css">
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -80,11 +80,11 @@
       </nav>
 
       <div class="col-10 m-3 m-5 pt-4 mx-auto">
-        <div class="card shadow bg-light bg-opacity-25">
+        <div class="card rounded-4 shadow bg-light bg-opacity-25">
           <div class="card-body m-5">
 
             <!-- Bar -->
-            <div class="position-relative mb-5 mx-5">
+            <div class="position-relative mb-5 mx-3">
               <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0"
                 aria-valuemax="100" style="height: 1px;">
                 <div class="progress-bar bg-success" style="width: 100%"></div>
@@ -203,7 +203,8 @@
                         <form class="row g-3">
                           <div class="col-auto">
                             <label for="inputPassword2" class="visually-hidden">Password</label>
-                            <input type="password" class="form-control text-success text-center" id="inputPassword2" placeholder="Password">
+                            <input type="password" class="form-control text-success text-center" id="inputPassword2"
+                              placeholder="Password">
                           </div>
                           <div class="col-auto">
                             <button type="submit" class="btn btn-success mb-3">Enter</button>

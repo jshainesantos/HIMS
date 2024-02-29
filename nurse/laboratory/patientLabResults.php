@@ -8,7 +8,7 @@
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../../style.css">
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -20,68 +20,46 @@
                 <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">
                     Request Service
-                </button>
+        </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="modalContent m-5 row">
-                                    <h1 class="text-center">Add Patient</h1>
-                                    <p class="text-center">is the patient inpatient or outpatient?</p>
-                                    <div class="col">
-                                        <div class="card">
-                                            <div class="card-body bg-success bg-opacity-75 text-center">
-                                                <h1><svg width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                        <rect width="70" height="70" fill="url(#pattern0)" />
-                                                        <defs>
-                                                            <pattern id="pattern0"
-                                                                patternContentUnits="objectBoundingBox" width="1"
-                                                                height="1">
-                                                                <use xlink:href="#image0_1132_22539"
-                                                                    transform="scale(0.0078125)" />
-                                                            </pattern>
-                                                            <image id="image0_1132_22539" width="128" height="128"
-                                                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAc4SURBVHic7Z1NrF5FGcf/T/motpdiJRijEIiRjwAFAimtGwmgCxNN1I1xw6Z8SCsLEokbF8YFgQUWxc9EXZAQE9DIRqNFqhtNLcS0aSF8JKDgRyMtpPfeUhsKPxbzYvDN7Zl578z5euf5JTe5yZnzzDMz//PMe545c47kOI7jOI7jOI7jOI4zJwCbgO8AB4Fl4ixPyj4AXNG3/84qAdYCPwDeShj0U3ES+B5wZt/tcWZgMvi7MwZ+midcBCMC+GHBwX+XB/tul5MAYc7PCfun4iRwed/tK82avh1ogVvUTrtOk7StBbu9Mo8C+FSLtj/dou1esL4dKA2wJGmhJfNLZrahJdu9MI8CoOm4mTW2Off8sTGPU4AzAy6AynEBVM7oBEAkt99B/dP42kEXUCa3HxVIjm187aAdKJjbT6irBKNZOxjLFPCApBv6dmIGbpR0f99OpDD4e1pgk6R9KiPWo2b2gUh9i5LOKlDXW5KuMrOnC9hqjTFEgG0q5+fvEso8UaiuuVw76Bzg6ULz8mHgvIT6LgFeK1TngS76KIcxRIDzM89flPSIpKvN7B+xwmb2nKSrJD06OTeHCzLPb50x/AYYdG5+6P7FGEMEcFrEBVA5LoDKcQFUjgugclwAleMCqJwxCGCp6WBCNm4R+BVwSWqFwPnALybnNpLju5MA5VLBrwHRrOJk8I8UqtNTwQV4vJCdjUpbot0p6YOF6izle2sMOk0pSYTHrPYprK7lsmhmZ0fqK7kcfKWZPVPAVmsMPgKY2UFJPypkLmVTR4nBl6TvD33wRwNwJvD7EpNyQl0leBw4o4u+qQaCCB4kPHi5ahLqyeEk4Ynl0Qz+4H8DTEPYor1NYaPmhZpxH2Du1rAVWJb0N0m7JP10bGF/dAKIERtA3xv4/wz+R6DTLi6AynEBVM7pfTvQAktquJdfxY+895L7kOjgmMcI8EqLtl9u0XYvzKMA2sy/72rRtlMC4Aoyk0UNSZ7L+m5faZIiAHA58Bjwn8nfYwz0nXmF1w7eS525feA64PgKV8Rx4Lq+/VsJCq4dTKg3tw/sauiYwc6JlFk7GF1uvzjAUkMHDf6RJ8L09W3gQKQt/2vTpOz9zOGcP000rw3d5caBj0n6hKQtCgs971dY7Dks6XlJz0n6rZnN3e3YYIldLgXsrwVuBp5MuDoB3gb+DNxOzaG5K9oUAPA54JXEgV+J54EvlmqrswJtCABYAB7OGPhpfga8r3TbHZUXALCREMJL8xfg3Db6oGpKCgDYAOxrYfDfZQ+wrq2+mEe6Xgv4icLrV9pii6SHgbl6aqdXSkUA4I4Wr/xpbm6zT6oi1tOJNjaQvt1qP7CD8Lau0wkZvUuB7ZNjKRwCGjeAOIkUEsA3EgbtDeA2GsI3sIYQSf6bYO+bxTqhZnIFQLiKX00Y/Otn8OmGBBG8BMzj8w7dUkAAn4zZAL6yCr+2J9gd0/uFe6H1tQDgXklfbyiyX9I1ZvZ2zJcpu2sUNo1umuW8AfKmwuaSI5JelPSspD2S/mBmh/p0TFKRCBB7zfv2DN++mhAFxsxe4E7gnNX2UYwu5siPRI7vzrCdc+4Y2Czpu5L+DuwEPlq6gi6mgNh++3Vmdjzmxylsr1cIn7VwTNK3JO00szdLGOwiAsT2Hszj3oS2WC/pPkl7gYtLGOxCAK9Hjue8DfzCjHPHzNWSngK+kGuoCwG8FDme8z3eGzPOHTtnSXoUuC3HSBcCeDJy/BZg5vf/EG4Dsxo/B5wm6ce5Imgkdp+ScP5nE253dqzCrx0p91Gra3V3AGcA5wKbgVuBn5PwfsIpTgKfb8vBrA4mLOYcjpg5Adw0g083sfJehZn9GyLAOmAb4ZG3VBaBi9pwJruDgXsTGnCCkNg55XRAWAzaQdpiULJ/Q4UQHe4mUezAXyn9oGyJDgbOAY4mNuIgcBdhj98C4Wq4jJARO5BoYyb/hg6wFfhXYpPvnsV2diJo6MzLO30IXzz7taQrI0WXJV1sZv9OsevLpSNh8sWzz0j6Z6TogqSvJduNFfAIMCyArZL+KGltQ7Fjki4wsyMxex4BRoaZ7ZF0T6TYeklfTrIXK+ARYHgAC5JekPThhmJ7zWxLzJZHgBFiZssKq4JNbAY+FLPlAhgvD6n5iyQmKfpInAtgpJjZMUm/iRTbGrOTvRbf9xw79t8omeyW9KWG45fGDHgEGDf7I8c/HjPgAhg3sWctNsYMuADGzdHI8ei3FFwAI8bMTkSKNGULJbkAqscFUDkugMqZ+7WA2onlaTwCVI4LoHJcAJXjAqgcF0DluAAqxwVQOaN/HqB2cvM0HgEqxwVQOS6AynEBVI4LoHJcAJXjAqgcF0DluAAqxwVQOS6AykkRQNPLmGt6UfNQyRqfFAH8aZXHnG5od3yAawnf9JnmDeDa7AqcLDoZH8Jn235J+Bzbocn/0a3HTjf4+DiO4ziO4ziO4ziOk8I7Swdwm1BOcZMAAAAASUVORK5CYII=" />
-                                                        </defs>
-                                                    </svg>
-                                                </h1>
-                                                <h3 class="text-light">Inpatient</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card">
-                                            <div class="card-body bg-success bg-opacity-75 text-center">
-                                                <h1><svg width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                        <rect width="70" height="70" fill="url(#pattern0)" />
-                                                        <defs>
-                                                            <pattern id="pattern0"
-                                                                patternContentUnits="objectBoundingBox" width="1"
-                                                                height="1">
-                                                                <use xlink:href="#image0_1132_22543"
-                                                                    transform="scale(0.0078125)" />
-                                                            </pattern>
-                                                            <image id="image0_1132_22543" width="128" height="128"
-                                                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAqGSURBVHic7Z1rrF1FGYbf2S03oQXLvSL1wqUCrVjsXUNrrYkaLFEJilATUwhUWkQlhqjYGH9SBISKaVBTA4aLNmCQmAKl5VJKUAs91HL5oVBOTy+otAdaaM95/DH71MPmW/u6Zq299p4n2X9mXeadmW+vNWvmm2+c2hzASTpT0ixJZ0k6TdI4Se+XdET5tH5J/5H0L0kvStoo6VFJm5xzZKs40jKAA2YCtwHbaJ4+4JfAjLzLFKkDYCRwCfB8C42eRA9wMTAy73JGDIDzgJcDNHwlLwFfzLu8kTLACcB9GTR8JSuB4/Muf964PDMH5ki6Q1I9DTEoqUfSc5JekLRdvvMn+c7g8ZJOlzSh/KunbFslfcM5t7ox5ZGWAb4NDNT4l+4HHgC+DhzdwL2PAS4C/ly+R608Lg9Z1kgFwJIajbIHuAUYl0JeHwKWAXtr5HldGmWL1AD4YY2GeBgYHyDfj5afCNX4Qdr5RoYBfAsYrPKvvywDDVeU87IYBOaH1tCVAJNIfgz3AedkqGUyyQNMe4Czs9LSFQCjSP7GfwU4JQdNpwGvJmh6ETii9l0idQHcmFDRO4GP5ajrDOD1BG3X56WrowDOBvYZFbwfOLcN9M3B/hzdB0zIW1/hIbnn/eO8tQ0B/DRB45/y1lZoyv9+q9ffAxyUt74hgIOBTQlGkFnntOMA7kio1Fl5a6sEmJug9Xd5ayskwGjgTaNC1+StLQngMUPvm8CovLUVDvygj8V5eWtLApiXoPmbeWsrHMC9RkVuo43e/ZXgHVL6DN2/z1tbocC7dO0wKvKWvLXVAu+GZhlurlPnoSgFuu/pko4x0h8JlF+aPGykHSfp1KyFZEEoA0iazXs8UH5p8lhCeuozlO1AyCdAJa8757YHyi81nHN98i7mlVhlKjyhDOAEI+3lQHmFwNJ6YuYqMiCUAVjfzf8NlFcILK0dORYQygAON9LeCpRXCPqNtI6cHg5lAG8baQcHyisEhxppezNXkQGhDGC3kVakR6il1SpT4QllAFYv+uRAeYXA0vrvzFVkQCgDeMlIOxk4LFB+qQG8T9IHjUNWmQpPKAN4ISGvIsytT5a9qmhz1kKyIJQB9MjuCH4mUH5pMsdI2ytpU9ZCCg2wxphU+WveumoBPGvofihvXaEI9QSQpFVG2iTgrIB5tgTwcUkTjUPWBFGkGsAp2P6Av8pbWxLA7YbeQeAjeWsrJMATRoXuBU7KW1sl+EWk7xh61+atrbDgl3Vb3Jm3tkqAexK0Xpi3tsICjMAvs7L4XN76hgA+n6BxMzAib32FBh+YyWIrbRCiBRhL8kLRr+Wtr/Dg/QOtT0KAtYA18ZKVtsOw+ykAj9ChfoCZA5xJ8pr8leTgKQwcRHJwqrfIcdFqRwIsTKhsgFVkuPgCOJzq0UIuzUpLVwHcWaXS/0YGcQLwcQE2VNGxIrSGrgU4BP9uTeIN4FIg9RFKoARcDuyqkv8qoEiOK8UDv2bwqSqNQPm4NSnTbJ5zgadr5LmOuAYwG/Dv4AdrNMiQISwAjmwij6PwT5P1deTzAGD5MXY8uX3m4Hv+SyUtquP0tyWtk7RaPhT8i/JRPodHCj1RPpT8BPlp52mSDqklQ9LNkq5xzu1rsAiRNAC+THKcnpDsBM7Pu/wRScAY4CZqh45Ng0FgBXBc3uWOVACcgx8YSgom2QoDwB+BSXmXM1IDfPi2pUBvCg3/GnA9cEbe5WpH2nqsGz8TN12+UzdLvoNnLTsfzk75kPKPyi9Hf8o5NxBOZbFpawOwAMbIbxo1Rv9frrVb5U2jnHMd6b8fiUQikUgkEolEIpFIJBKJRCLNk8pQMH6Bx2x5J4zxkj4s6Vj5aGFF97HbKum3kn7knBts5gZ4j6ZLJZ0vH3I2aSp6m3wkkvskLXfOvdFMfpmAn8O/kvpcrjqBS5qspwvxzieNsgO4IO12axn8UqobgP4UK7cI3N5EXV1Fa74Ng8DiEO04RN3u1/iVNNfI++NdLTsYZCfzz0ZOxns1L1Vrr1kn6QZgdgv3qJlBTYBTJd0l6ROhhLQ5GyXNqneqGb+uYYO8/0IaPCtpUrN9kGrUNABgnqQVkkbXcb9eSU/KRwl7VX6evujetr2SnnHOWUGvTIBPyQ47v1veC7lHUqWTygh5g1kkO1DlTOfck/VqSAW8T/7+Gu+pLcDPiC5XBwCWGPW0D/hkHddOwd5o8ydZaB8uZAHVOzBbyucU/TMvdYBfG/VV92YZwOPG9Q13QuthZIKAeZJuk/2KQNIySdc65zoyfm4KWJHFexu43jo3yLK19xgAvsO3Qv6dVEm/pPnOuZUhxESy510GgF+udZfsDt/rkr7gnHs6C2GRbKgcB7ha9qfeW5K+FBu/8zhgAMBYSdcZ5yDp4sw/QSKZMPwJ8H3Zo3vL4ju/cylJBxZbXGYcf03StZkqimTK0BPgItn//iXxU6+zGTKA+cax1+Q/ByMdTAm/Tt4aovyNc+6drAVFsqUkv/LWGvGLW6Z3ASV5N65Kep1zcYuULqAke1PkdVkLieTDSHknxUo6coesesA7c8yQ9Fn5OATNeD5NT1VU+Z7A3U1c96a8N9NDkta9x6kE22Hx8tb1Fg9gDvBclSnwVqi78YC7A2l4lgr3spK6aJvUagBXSfqL0nPjakcmSlrFMEfTkmy//a76/MNvC/Nz2VPgadGIP8DWYCp8GW+k7HIectu4QgAcJelWhY2XtEfS8gbOX66wu5U7SbcCo02PoC5jgaSjjfT9ktarsX+uRa/8Kp/n673AOdcDTC5rG9ti/mMlTdV7nX+OlbRACZ2F9luREgjgMaP8u6jDgbMo4B1NrTD5a7r+FSB7HORm59wzmSsJRNmR5xfGofHRAOzAkxszVxEeq0zHRgOwO3+pr8BpA6xoqS4aQJcTDaDLiQbQ5UQD8F7PlXRivVijnOlvz1ZAdhppEzNXER6rTDuiAdhT34uAKZkrCQQwVfbmXP+IQ8HS/ZI+XZE2StITQBpDwVvlh4J7GrkImCA/FHxii/l/QNIU2QuB749DwXAkPiBTSPYAZzWgaQLJm22nxTZgdNe/Asqh2BbK7gymxaHy/+Z6WVC+JhRIWuic29X1BiBJzrl7JH1H9mhZWjQyq9fqY78aA5IWO+f+IHXm505TOOduljRXPiBTp7JB0hzn3C1DCUmdwGkQ8okYhAFJm1txZ3fOrcbvKzhN3hjGyY72UYvpkk5qVkcCW9Sct3a/vFPoKknrLafQTuOmlqu6RbCdOlt1Cm3GI7gmnfgKWEyMWFY3JXm/8U7j5LwFFIWSpAfzFpEyuyV1jDdPaEqSrpB0r3xnocgMyEfg/KpzzhrfjxiMLFdW14z8Rd5NJ3YCIw0QDaDLiQbQ5UQD6HKiAXQ50QC6nGgAXU40gDBYATYa8QewZhJ3NamlKtEAwvCqkTaVOhxN8Q6ck41Dr7SsyiBkUISuBZgpydoipl9+06iNsjeNmijvvWv5IMxwzsXobUUAKOEDMqXF3yGu4SgUwGxq77hWD/uBc/MuT6QJgMW0vnXslXmXI9ICwAU0t+5gO/CVvPVHUgAYDXwPWAv0VWn0PmAN8F2gnp1aW+Z/iGVrz7qXryAAAAAASUVORK5CYII=" />
-                                                        </defs>
-                                                    </svg>
-                                                </h1>
-                                                <h3 class="text-light">Outpatient</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4">
+              <div class="modal-body">
+                <div class="modalContent m-5 row">
+                  <h1 class="text-center fw-bold">Request for a service</h1>
+                  <p class="text-center">Choose which service to send request to.</p>
+                  <div class="col">
+                    <div class="card">
+                      <div class="btn card-body bg-success bg-opacity-75 text-center">
+                        <svg width="55" height="55" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M1.91369 15.9424C1.20535 15.9424 0.701882 15.6264 0.403271 14.9945C0.104659 14.3625 0.177576 13.7757 0.622021 13.234L5.24702 7.60905V2.60905H4.41369C4.17758 2.60905 3.97966 2.52919 3.81994 2.36947C3.66022 2.20974 3.58035 2.01183 3.58035 1.77572C3.58035 1.53961 3.66022 1.34169 3.81994 1.18197C3.97966 1.02224 4.17758 0.942383 4.41369 0.942383H11.0804C11.3165 0.942383 11.5144 1.02224 11.6741 1.18197C11.8338 1.34169 11.9137 1.53961 11.9137 1.77572C11.9137 2.01183 11.8338 2.20974 11.6741 2.36947C11.5144 2.52919 11.3165 2.60905 11.0804 2.60905H10.247V7.60905L14.872 13.234C15.3165 13.7757 15.3894 14.3625 15.0908 14.9945C14.7922 15.6264 14.2887 15.9424 13.5804 15.9424H1.91369ZM3.58035 13.4424H11.9137L9.08035 10.109H6.41369L3.58035 13.4424Z"
+                            fill="white" />
+                        </svg>
+
+                        <h6 class="text-light mt-3">Laboratory Services</h6>
+                      </div>
                     </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <div class="btn card-body bg-success bg-opacity-75 text-center">
+                        <svg width="55" height="55" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M9.58594 59.1673C7.15538 59.1673 5.08941 58.3166 3.38802 56.6152C1.68663 54.9138 0.835938 52.8479 0.835938 50.4173C0.835938 49.5909 1.11545 48.8982 1.67448 48.3392C2.23351 47.7802 2.92622 47.5006 3.7526 47.5006C4.57899 47.5006 5.2717 47.7802 5.83073 48.3392C6.38976 48.8982 6.66927 49.5909 6.66927 50.4173C6.66927 51.2437 6.94878 51.9364 7.50781 52.4954C8.06684 53.0545 8.75955 53.334 9.58594 53.334C10.3151 53.334 11.1293 53.1152 12.0286 52.6777C12.928 52.2402 13.8637 51.6083 14.8359 50.7819C15.8082 49.9555 16.7682 49.0197 17.7161 47.9746C18.6641 46.9295 19.5998 45.7993 20.5234 44.584C22.3707 42.1048 23.9262 39.5527 25.1901 36.9277C26.454 34.3027 27.0859 31.9937 27.0859 30.0006V3.75065C27.0859 2.92426 27.3655 2.23155 27.9245 1.67253C28.4835 1.1135 29.1762 0.833984 30.0026 0.833984C30.829 0.833984 31.5217 1.1135 32.0807 1.67253C32.6398 2.23155 32.9193 2.92426 32.9193 3.75065V30.0006C32.9193 31.9937 33.5512 34.3027 34.8151 36.9277C36.079 39.5527 37.6345 42.1048 39.4818 44.584C40.4054 45.7993 41.3411 46.9295 42.2891 47.9746C43.237 49.0197 44.197 49.9555 45.1693 50.7819C46.1415 51.6083 47.0773 52.2402 47.9766 52.6777C48.8759 53.1152 49.6901 53.334 50.4193 53.334C51.2457 53.334 51.9384 53.0545 52.4974 52.4954C53.0564 51.9364 53.3359 51.2437 53.3359 50.4173C53.3359 49.5909 53.6154 48.8982 54.1745 48.3392C54.7335 47.7802 55.4262 47.5006 56.2526 47.5006C57.079 47.5006 57.7717 47.7802 58.3307 48.3392C58.8898 48.8982 59.1693 49.5909 59.1693 50.4173C59.1693 52.8479 58.3186 54.9138 56.6172 56.6152C54.9158 58.3166 52.8498 59.1673 50.4193 59.1673C49.2526 59.1673 47.9279 58.827 46.4453 58.1465C44.9627 57.4659 43.4436 56.518 41.888 55.3027C40.3325 54.0875 38.7891 52.6656 37.2578 51.0371C35.7266 49.4086 34.2804 47.6465 32.9193 45.7506C32.1901 44.7298 31.6189 44.0371 31.2057 43.6725C30.7925 43.3079 30.3915 43.1256 30.0026 43.1256C29.6137 43.1256 29.2127 43.3079 28.7995 43.6725C28.3863 44.0371 27.8151 44.7298 27.0859 45.7506C25.7248 47.6465 24.2786 49.4086 22.7474 51.0371C21.2161 52.6656 19.6727 54.0875 18.1172 55.3027C16.5616 56.518 15.0425 57.4659 13.5599 58.1465C12.0773 58.827 10.7526 59.1673 9.58594 59.1673ZM11.0443 49.7611L4.48177 44.4381C3.80122 43.9034 3.26649 43.2593 2.8776 42.5059C2.48872 41.7524 2.29427 40.9381 2.29427 40.0631C2.29427 39.1881 2.46441 38.3618 2.80469 37.584C3.14497 36.8062 3.65538 36.15 4.33594 35.6152C4.82205 35.2263 5.35677 35.0441 5.9401 35.0684C6.52344 35.0927 7.00955 35.3479 7.39844 35.834C7.78733 36.3201 7.96962 36.867 7.94531 37.4746C7.92101 38.0822 7.6658 38.5805 7.17969 38.9694C7.08246 39.0666 6.97309 39.2125 6.85156 39.4069C6.73003 39.6013 6.66927 39.8201 6.66927 40.0631C6.66927 40.2576 6.70573 40.4399 6.77865 40.61C6.85156 40.7802 6.98524 40.9381 7.17969 41.084L14.5443 46.9173C13.8637 47.5493 13.2318 48.1083 12.6484 48.5944C12.0651 49.0805 11.5304 49.4694 11.0443 49.7611ZM18.7734 42.3236L8.85677 34.3756C8.17621 33.8409 7.64149 33.1847 7.2526 32.4069C6.86372 31.6291 6.66927 30.8027 6.66927 29.9277C6.66927 29.0527 6.83941 28.2142 7.17969 27.4121C7.51996 26.61 8.03038 25.9416 8.71094 25.4069C9.19705 25.018 9.74392 24.8479 10.3516 24.8965C10.9592 24.9451 11.4575 25.2125 11.8464 25.6986C12.2352 26.1847 12.4054 26.7194 12.3568 27.3027C12.3082 27.8861 12.0408 28.3722 11.5547 28.7611C11.4089 28.8583 11.2873 29.0284 11.1901 29.2715C11.0929 29.5145 11.0443 29.7576 11.0443 30.0006C11.0443 30.1951 11.0807 30.3774 11.1536 30.5475C11.2266 30.7177 11.3602 30.8757 11.5547 31.0215L21.2526 38.7506C20.8637 39.3826 20.4627 39.9902 20.0495 40.5736C19.6363 41.1569 19.2109 41.7402 18.7734 42.3236ZM23.8047 32.9173L13.2318 24.3861C12.5512 23.8513 12.0165 23.1708 11.6276 22.3444C11.2387 21.518 11.0443 20.6673 11.0443 19.7923C11.0443 18.8687 11.2387 18.018 11.6276 17.2402C12.0165 16.4625 12.5512 15.7819 13.2318 15.1986C13.6693 14.8097 14.1918 14.6395 14.7995 14.6882C15.4071 14.7368 15.9054 15.0041 16.2943 15.4902C16.6832 15.9763 16.8533 16.5111 16.8047 17.0944C16.7561 17.6777 16.4887 18.1638 16.0026 18.5527C15.9054 18.65 15.7839 18.8201 15.638 19.0632C15.4922 19.3062 15.4193 19.5736 15.4193 19.8652C15.4193 19.9625 15.6137 20.327 16.0026 20.959L24.1693 27.5944V30.0006C24.1693 30.4868 24.1328 30.9729 24.0599 31.459C23.987 31.9451 23.9019 32.4312 23.8047 32.9173ZM24.1693 19.3548L17.4609 13.7402C16.7804 13.2055 16.27 12.5614 15.9297 11.8079C15.5894 11.0545 15.4193 10.2645 15.4193 9.43815C15.4193 7.8826 15.9783 6.54579 17.0964 5.42773C18.2144 4.30968 19.5512 3.75065 21.1068 3.75065C21.8845 3.75065 22.5894 3.87218 23.2214 4.11523C23.8533 4.35829 24.1693 4.96593 24.1693 5.93815C24.1693 6.91037 23.8533 7.51801 23.2214 7.76107C22.5894 8.00412 21.8845 8.12565 21.1068 8.12565C20.7179 8.12565 20.4019 8.27148 20.1589 8.56315C19.9158 8.85482 19.7943 9.17079 19.7943 9.51107C19.7943 9.70551 19.8307 9.87565 19.9036 10.0215C19.9766 10.1673 20.0859 10.2888 20.2318 10.3861L24.1693 13.6673V19.3548ZM36.2005 32.9173C36.1033 32.4312 36.0182 31.9451 35.9453 31.459C35.8724 30.9729 35.8359 30.4868 35.8359 30.0006V27.5944L44.0026 20.959C44.197 20.8132 44.3915 20.4486 44.5859 19.8652C44.5859 19.5736 44.513 19.3062 44.3672 19.0632C44.2214 18.8201 44.0998 18.65 44.0026 18.5527C43.5165 18.1638 43.2491 17.6777 43.2005 17.0944C43.1519 16.5111 43.322 15.9763 43.7109 15.4902C44.0998 15.0041 44.5981 14.7368 45.2057 14.6882C45.8134 14.6395 46.3602 14.8097 46.8464 15.1986C47.5269 15.7819 48.0495 16.4746 48.4141 17.2767C48.7786 18.0788 48.9609 18.9173 48.9609 19.7923C48.9609 20.6673 48.7665 21.5059 48.3776 22.3079C47.9887 23.11 47.454 23.7784 46.7734 24.3132L36.2005 32.9173ZM35.8359 19.3548V13.6673L39.7734 10.3861C39.9193 10.2888 40.0286 10.1673 40.1016 10.0215C40.1745 9.87565 40.2109 9.70551 40.2109 9.51107C40.2109 9.12218 40.0894 8.79405 39.8464 8.52669C39.6033 8.25933 39.2873 8.12565 38.8984 8.12565C38.1207 8.12565 37.4158 8.00412 36.7839 7.76107C36.1519 7.51801 35.8359 6.91037 35.8359 5.93815C35.8359 4.96593 36.1519 4.35829 36.7839 4.11523C37.4158 3.87218 38.1207 3.75065 38.8984 3.75065C40.454 3.75065 41.7908 4.30968 42.9089 5.42773C44.0269 6.54579 44.5859 7.8826 44.5859 9.43815C44.5859 10.2645 44.4158 11.0545 44.0755 11.8079C43.7352 12.5614 43.2248 13.2055 42.5443 13.7402L35.8359 19.3548ZM41.2318 42.3236C40.7943 41.7402 40.3689 41.1447 39.9557 40.5371C39.5425 39.9295 39.1415 39.3097 38.7526 38.6777L48.3776 30.9486C48.5234 30.8513 48.6936 30.4868 48.888 29.8548C48.888 29.7576 48.7422 29.393 48.4505 28.7611C47.9644 28.3722 47.697 27.8739 47.6484 27.2663C47.5998 26.6586 47.77 26.1118 48.1589 25.6257C48.5477 25.1395 49.0339 24.8722 49.6172 24.8236C50.2005 24.775 50.7352 24.9451 51.2214 25.334C51.9019 25.8687 52.4245 26.5371 52.7891 27.3392C53.1536 28.1413 53.3359 28.9798 53.3359 29.8548C53.3359 30.7298 53.1415 31.5684 52.7526 32.3704C52.3637 33.1725 51.829 33.8409 51.1484 34.3756L41.2318 42.3236ZM48.9609 49.7611C48.4748 49.4694 47.9401 49.0805 47.3568 48.5944C46.7734 48.1083 46.1415 47.5493 45.4609 46.9173L52.8255 41.084C52.9714 40.9868 53.1415 40.6465 53.3359 40.0631C53.3359 39.8201 53.2873 39.6013 53.1901 39.4069C53.0929 39.2125 52.9957 39.0666 52.8984 38.9694C52.4123 38.5805 52.145 38.0822 52.0964 37.4746C52.0477 36.867 52.2179 36.3201 52.6068 35.834C52.9957 35.3479 53.4818 35.0927 54.0651 35.0684C54.6484 35.0441 55.1832 35.2263 55.6693 35.6152C56.3498 36.15 56.8602 36.8062 57.2005 37.584C57.5408 38.3618 57.7109 39.1881 57.7109 40.0631C57.7109 40.9381 57.5286 41.7524 57.1641 42.5059C56.7995 43.2593 56.2769 43.9034 55.5964 44.4381L48.9609 49.7611Z"
+                            fill="white" />
+                        </svg>
+                        <h6 class="text-light mt-3">Imaging Services</h6>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
                 <button class="btn btn-light"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -228,15 +206,15 @@
             </div>
 
             <div class="col-8 mt-5">
-                <div class="card mt-5 pe-0">
+                <div class="card rounded-4 mt-5 pe-0">
                     <div class="card-body m-1">
                         <div class="d-flex justify-content-between mb-4">
                             <h4>Laboratory Results</h4>
                             <div class="right d-flex">
                                 <form role="search">
-                                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                    <input class="form-control rounded-3" type="search" placeholder="Search" aria-label="Search">
                                 </form>
-                                <select class="ms-2 form-select form-select-sm" aria-label="Small select example">
+                                <select class="ms-2 form-select form-select-sm rounded-3" aria-label="Small select example">
                                     <option selected>Order by</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
